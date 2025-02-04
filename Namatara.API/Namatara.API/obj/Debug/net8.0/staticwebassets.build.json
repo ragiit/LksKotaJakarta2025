@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "qoWkm+jihcImB//tFeafPDwmOou/ObwH4SK2dxn+yeU=",
+  "Source": "Namatara.API",
+  "BasePath": "_content/Namatara.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Namatara.API\\wwwroot",
+      "Source": "Namatara.API",
+      "ContentRoot": "D:\\LKS\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "BasePath": "_content/Namatara.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,6 @@
+@Namatara.API_HostAddress = http://localhost:5083
+
+GET {{Namatara.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
