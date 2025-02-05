@@ -173,7 +173,7 @@ namespace Namatara.API.Controllers
                 return BadRequest(new _ApiResponse<object>(
                     statusCode: StatusCodes.Status400BadRequest,
                     message:
-                    $"Input price is less than the total price. Please check again. Total price: {totalPrice}, Input price: {request.InputPrice}"
+                    $"Input price is less than the total price. Please check again. Total price: {totalPrice} Input price: {request.InputPrice}"
                 ));
             }
 
