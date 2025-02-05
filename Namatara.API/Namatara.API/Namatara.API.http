@@ -1,6 +1,51 @@
-@Namatara.API_HostAddress = http://localhost:5083
+POST {{host_address}}/api/Auth/sign-in
+Content-Type: application/json
 
-GET {{Namatara.API_HostAddress}}/weatherforecast/
+{
+  "username": "string",
+  "password": "string"
+}
+
+###
+
+
+GET {{host_address}}/api/TourismAttractions/253694a1-b572-4e7e-8037-63f0b2864e6c
 Accept: application/json
+
+###
+
+GET {{host_address}}/api/Categories/d99e5c64-f169-4b3c-8be5-502ca48d66d5
+Accept: application/json
+
+###
+
+GET {{host_address}}/api/Categories/2d981623-08a9-45a0-af72-8a9cc8763e68/attractions
+Accept: application/json
+
+###
+
+GET {{host_address}}/api/Auth/me/attraction-ratings
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+
+GET {{host_address}}/api/Auth/me/tickets
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+
+POST {{host_address}}/api/TourismAttractions/book-ticket
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "tourismAttractionId": "BAE96EE4-84C5-41EC-BBCA-07D1B908A2D7",
+  "numberOfTickets": 10,
+  "inputPrice": 500000,
+  "bookingDate": "2025-02-05T07:34:30.673Z",
+  "bookingExpiredDate": "2025-02-07T07:34:30.673Z"
+}
 
 ###

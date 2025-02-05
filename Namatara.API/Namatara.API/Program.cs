@@ -20,24 +20,24 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 var key = builder.Configuration["Jwt:Key"] ?? "SuperSecretKey12345";
 
 builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters
     {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ClockSkew = TimeSpan.Zero,
-        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
-    };
-});
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    })
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ClockSkew = TimeSpan.Zero,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
+        };
+    });
 
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
@@ -76,6 +76,8 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+app.UseStaticFiles();
+
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
@@ -85,16 +87,17 @@ app.MapControllers();
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    dbContext.Database.Migrate();  // Apply any pending migrations
+    dbContext.Database.Migrate(); // Apply any pending migrations
 
-    SeedData(dbContext);  // Call the seed method
+    SeedData(dbContext); // Call the seed method
 }
 
 static void SeedData(ApplicationDbContext dbContext)
 {
     // Check if the User data already exists to avoid duplicate seeding
-    var adminUserId = Guid.Parse("49B35962-536D-4DE4-93C7-E602172BD9D8");  // Admin's GUID (replace it with a fixed GUID if needed)
-    if (!dbContext.Users.Any(u => u.Username == "admin"))  // Check if the admin user already exists
+    var adminUserId =
+        Guid.Parse("49B35962-536D-4DE4-93C7-E602172BD9D8"); // Admin's GUID (replace it with a fixed GUID if needed)
+    if (!dbContext.Users.Any(u => u.Username == "admin")) // Check if the admin user already exists
     {
         // Seed User
         dbContext.Users.AddRange(
@@ -102,8 +105,9 @@ static void SeedData(ApplicationDbContext dbContext)
             {
                 Id = adminUserId,
                 Username = "admin",
-                Password = new PasswordHelper().HashPassword("adminpassword"),  // You should hash the password in a real-world app
-                Role = UserRole.Admin,  // Set the role to Admin
+                Password = new PasswordHelper()
+                    .HashPassword("adminpassword"), // You should hash the password in a real-world app
+                Role = UserRole.Admin, // Set the role to Admin
                 FullName = "Admin",
                 DateOfBirth = DateTime.UtcNow,
                 ImageUrl = ImageHelper.GetRandomImageUrl(),
@@ -112,7 +116,7 @@ static void SeedData(ApplicationDbContext dbContext)
             }
         );
 
-        dbContext.SaveChanges();  // Save the changes to the database
+        dbContext.SaveChanges(); // Save the changes to the database
     }
 
     // Hardcode Category IDs
@@ -132,6 +136,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Id = wisataCategoryId,
             Name = "Wisata",
             Description = "Kategori yang mencakup berbagai tempat wisata yang dapat dikunjungi oleh wisatawan.",
+            ImageUrl = "Images/category_wisata.jpeg",
             CreatedBy = adminUserId,
             CreatedAt = DateTime.UtcNow
         },
@@ -139,7 +144,9 @@ static void SeedData(ApplicationDbContext dbContext)
         {
             Id = umkmCategoryId,
             Name = "UMKM",
-            Description = "Kategori untuk Usaha Mikro, Kecil, dan Menengah yang dapat dipromosikan melalui platform ini.",
+            Description =
+                "Kategori untuk Usaha Mikro, Kecil, dan Menengah yang dapat dipromosikan melalui platform ini.",
+            ImageUrl = "Images/category_umkm.jpeg",
             CreatedBy = adminUserId,
             CreatedAt = DateTime.UtcNow
         },
@@ -148,6 +155,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Id = homestayCategoryId,
             Name = "Homestay",
             Description = "Kategori penginapan yang menawarkan pengalaman tinggal seperti di rumah sendiri.",
+            ImageUrl = "Images/category_homestay.jpeg",
             CreatedBy = adminUserId,
             CreatedAt = DateTime.UtcNow
         },
@@ -155,7 +163,9 @@ static void SeedData(ApplicationDbContext dbContext)
         {
             Id = paketWisataCategoryId,
             Name = "Paket Wisata & Edukasi",
-            Description = "Kategori untuk paket wisata yang juga mencakup elemen edukasi, seperti tur sejarah atau pelatihan.",
+            Description =
+                "Kategori untuk paket wisata yang juga mencakup elemen edukasi, seperti tur sejarah atau pelatihan.",
+            ImageUrl = "Images/category_wisata_edukasi.jpg",
             CreatedBy = adminUserId,
             CreatedAt = DateTime.UtcNow
         },
@@ -164,6 +174,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Id = acaraFestivalCategoryId,
             Name = "Acara & Festival",
             Description = "Kategori untuk berbagai acara dan festival yang diadakan di berbagai lokasi wisata.",
+            ImageUrl = "Images/category_acara_festival.jpg",
             CreatedBy = adminUserId,
             CreatedAt = DateTime.UtcNow
         }
@@ -178,7 +189,7 @@ static void SeedData(ApplicationDbContext dbContext)
         }
     }
 
-    dbContext.SaveChanges();  // Save the changes to the database
+    dbContext.SaveChanges(); // Save the changes to the database
 
     // Seed TourismAttractions
     var attractionsToAdd = new List<TourismAttraction>
@@ -194,7 +205,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Kuta, Bali",
             OpeningHours = "24 Jam",
             Rating = 4.7m,
-            ImageUrl = "https://example.com/images/pantai-kuta.jpg"
+            ImageUrl = "Images/pantai-kuta.jpg"
         },
         new()
         {
@@ -206,7 +217,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Gitgit, Buleleng, Bali",
             OpeningHours = "08:00 - 17:00",
             Rating = 4.5m,
-            ImageUrl = "https://example.com/images/air-terjun-gitgit.jpg"
+            ImageUrl = "Images/air-terjun-gitgit.jpeg"
         },
         new()
         {
@@ -218,7 +229,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Bali Barat, Bali",
             OpeningHours = "07:00 - 18:00",
             Rating = 4.6m,
-            ImageUrl = "https://example.com/images/taman-nasional-bali-barat.jpg"
+            ImageUrl = "Images/taman-nasional-bali-barat.jpg"
         },
 
         // Kategori UMKM
@@ -232,7 +243,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Ubud, Bali",
             OpeningHours = "08:00 - 19:00",
             Rating = 4.3m,
-            ImageUrl = "https://example.com/images/pasar-seni-ubud.jpg"
+            ImageUrl = "Images/pasar-seni-ubud.jpg"
         },
         new()
         {
@@ -240,11 +251,12 @@ static void SeedData(ApplicationDbContext dbContext)
             CategoryId = umkmCategoryId,
             Price = 5000,
             Name = "Pasar Badung",
-            Description = "Pasar tradisional di Denpasar yang menjual berbagai barang, mulai dari bahan makanan hingga kerajinan tangan.",
+            Description =
+                "Pasar tradisional di Denpasar yang menjual berbagai barang, mulai dari bahan makanan hingga kerajinan tangan.",
             Location = "Denpasar, Bali",
             OpeningHours = "06:00 - 20:00",
             Rating = 4.2m,
-            ImageUrl = "https://example.com/images/pasar-badung.jpg"
+            ImageUrl = "Images/pasar-badung.jpeg"
         },
         new()
         {
@@ -256,7 +268,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Sukawati, Bali",
             OpeningHours = "08:00 - 18:00",
             Rating = 4.4m,
-            ImageUrl = "https://example.com/images/pasar-sukawati.jpg"
+            ImageUrl = "Images/pasar-sukawati.jpg"
         },
 
         // Kategori Homestay
@@ -270,7 +282,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Jalan Raya Pantai, Bali",
             OpeningHours = "Tersedia 24 jam",
             Rating = 4.6m,
-            ImageUrl = "https://example.com/images/homestay-tepi-laut.jpg"
+            ImageUrl = "Images/homestay-tepi-laut.jpeg"
         },
         new()
         {
@@ -278,11 +290,12 @@ static void SeedData(ApplicationDbContext dbContext)
             CategoryId = homestayCategoryId,
             Price = 120000,
             Name = "Villa Bali Seaview",
-            Description = "Villa dengan pemandangan laut dan fasilitas modern untuk pengalaman menginap yang luar biasa.",
+            Description =
+                "Villa dengan pemandangan laut dan fasilitas modern untuk pengalaman menginap yang luar biasa.",
             Location = "Sanur, Bali",
             OpeningHours = "Tersedia 24 jam",
             Rating = 4.8m,
-            ImageUrl = "https://example.com/images/villa-bali-seaview.jpg"
+            ImageUrl = "Images/villa-bali-seaview.jpeg"
         },
         new()
         {
@@ -294,7 +307,45 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Bedugul, Bali",
             OpeningHours = "Tersedia 24 jam",
             Rating = 4.7m,
-            ImageUrl = "https://example.com/images/bali-mountain-retreat.jpg"
+            ImageUrl = "Images/bali-mountain-retreat.jpg"
+        },
+
+        // Kategori Wisata & Edukasi 
+        new()
+        {
+            Id = Guid.NewGuid(),
+            CategoryId = paketWisataCategoryId,
+            Price = 250000,
+            Name = "Museum Sejarah Nusantara",
+            Description = "Museum yang menyajikan koleksi artefak sejarah dari berbagai zaman di Nusantara.",
+            Location = "Jalan Proklamasi, Jakarta",
+            OpeningHours = "09.00 - 17.00",
+            Rating = 4.8m,
+            ImageUrl = "Images/museum-sejarah.jpg"
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            CategoryId = paketWisataCategoryId,
+            Price = 50000,
+            Name = "Kebun Edukasi Tani",
+            Description = "Kunjungan edukasi pertanian untuk mengenal lebih dekat proses bercocok tanam.",
+            Location = "Desa Hijau, Yogyakarta",
+            OpeningHours = "08.00 - 16.00",
+            Rating = 4.5m,
+            ImageUrl = "Images/kebun-edukasi.jpg"
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            CategoryId = paketWisataCategoryId,
+            Price = 175000,
+            Name = "Planetarium Bintang Timur",
+            Description = "Pertunjukan simulasi bintang dan tata surya untuk edukasi astronomi.",
+            Location = "Jalan Observatorium, Bandung",
+            OpeningHours = "10.00 - 18.00",
+            Rating = 4.7m,
+            ImageUrl = "Images/planetarium.jpg"
         },
 
         // Kategori Acara & Festival
@@ -308,7 +359,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Ubud, Bali",
             OpeningHours = "10:00 - 22:00",
             Rating = 4.8m,
-            ImageUrl = "https://example.com/images/festival-kesenian-ubud.jpg"
+            ImageUrl = "Images/festival-kesenian-ubud.jpeg"
         },
         new()
         {
@@ -320,7 +371,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Denpasar, Bali",
             OpeningHours = "09:00 - 21:00",
             Rating = 4.6m,
-            ImageUrl = "https://example.com/images/festival-bali-arts.jpg"
+            ImageUrl = "Images/festival-bali-arts.jpeg"
         },
         new()
         {
@@ -332,7 +383,7 @@ static void SeedData(ApplicationDbContext dbContext)
             Location = "Jimbaran, Bali",
             OpeningHours = "18:00 - 23:00",
             Rating = 4.7m,
-            ImageUrl = "https://example.com/images/bali-international-film-festival.jpg"
+            ImageUrl = "Images/bali-international-film-festival.jpeg"
         }
     };
 

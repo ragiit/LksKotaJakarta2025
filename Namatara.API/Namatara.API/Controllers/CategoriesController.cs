@@ -24,6 +24,7 @@ namespace Namatara.API.Controllers
                     x.Id,
                     x.Name,
                     x.Description,
+                    x.ImageUrl
                 })
                 .OrderBy(x => x.Name)
                 .AsNoTracking()
@@ -53,6 +54,7 @@ namespace Namatara.API.Controllers
                     Id = category.Id,
                     Name = category.Name,
                     Description = category.Description,
+                    ImageUrl = category.ImageUrl
                 }
             ));
         }
@@ -91,5 +93,11 @@ namespace Namatara.API.Controllers
                 .ToListAsync()
             ));
         }
+        
+        [HttpGet("sssss")]
+        public async Task<ActionResult<_ApiResponse<object>>> GetCategorieszz()
+        {
+            return Ok("Nyoba");
+        }  
     }
 }

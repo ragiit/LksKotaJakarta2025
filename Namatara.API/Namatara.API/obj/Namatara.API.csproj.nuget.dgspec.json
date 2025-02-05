@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LKS\\Namatara.API\\Namatara.API\\Namatara.API.csproj": {}
+    "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Namatara.API.csproj": {}
   },
   "projects": {
-    "D:\\LKS\\Namatara.API\\Namatara.API\\Namatara.API.csproj": {
+    "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Namatara.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LKS\\Namatara.API\\Namatara.API\\Namatara.API.csproj",
+        "projectUniqueName": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Namatara.API.csproj",
         "projectName": "Namatara.API",
-        "projectPath": "D:\\LKS\\Namatara.API\\Namatara.API\\Namatara.API.csproj",
+        "projectPath": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Namatara.API.csproj",
         "packagesPath": "C:\\Users\\argip\\.nuget\\packages\\",
-        "outputPath": "D:\\LKS\\Namatara.API\\Namatara.API\\obj\\",
+        "outputPath": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
