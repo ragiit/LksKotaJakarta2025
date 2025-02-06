@@ -20,15 +20,15 @@ namespace Namatara.API.Controllers
             return Ok(new _ApiResponse<object>
             (
                 data: await context.Categories.Select(x => new
-                {
-                    x.Id,
-                    x.Name,
-                    x.Description,
-                    x.ImageUrl
-                })
-                .OrderBy(x => x.Name)
-                .AsNoTracking()
-                .ToListAsync()
+                    {
+                        x.Id,
+                        x.Name,
+                        x.Description,
+                        x.ImageUrl
+                    })
+                    .OrderBy(x => x.Name)
+                    .AsNoTracking()
+                    .ToListAsync()
             ));
         }
 
@@ -73,10 +73,9 @@ namespace Namatara.API.Controllers
                 ));
             }
 
-            return Ok(new _ApiResponse<object>
-            (
-                data: await context.TourismAttractions.Where(x => x.CategoryId == id).Select(x =>
-                new
+            var attractions = await context.TourismAttractions
+                .Where(x => x.CategoryId == id)
+                .Select(x => new
                 {
                     x.Id,
                     x.CategoryId,
@@ -85,19 +84,21 @@ namespace Namatara.API.Controllers
                     x.Description,
                     x.Location,
                     x.OpeningHours,
-                    x.Rating,
+                    AverageRating = x.Ratings.Any() ? x.Ratings.Average(r => r.Rating) : 0,
                     x.ImageUrl
                 })
                 .OrderBy(x => x.Name)
                 .AsNoTracking()
-                .ToListAsync()
-            ));
+                .ToListAsync();
+
+            return Ok(new _ApiResponse<object>(data: attractions));
         }
-        
+
+
         [HttpGet("sssss")]
         public async Task<ActionResult<_ApiResponse<object>>> GetCategorieszz()
         {
             return Ok("Nyoba");
-        }  
+        }
     }
 }

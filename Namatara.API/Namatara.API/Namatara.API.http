@@ -1,9 +1,14 @@
+GET {{host_address}}/api/users
+Accept: application/json
+Authorization: Bearer {{admin_token}}
+
+###
 POST {{host_address}}/api/Auth/sign-in
 Content-Type: application/json
 
 {
-  "username": "string",
-  "password": "string"
+  "username": "admiqn",
+  "password": "adminpassword"
 }
 
 ###
@@ -49,3 +54,4 @@ Authorization: Bearer {{token}}
 }
 
 ###
+

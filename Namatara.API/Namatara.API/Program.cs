@@ -113,6 +113,90 @@ static void SeedData(ApplicationDbContext dbContext)
                 ImageUrl = ImageHelper.GetRandomImageUrl(),
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow
+            },
+            new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "argi",
+                Password = new PasswordHelper().HashPassword("123"),
+                Role = UserRole.User,
+                FullName = "Argi",
+                DateOfBirth = DateTime.UtcNow,
+                ImageUrl = ImageHelper.GetRandomImageUrl(),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            },
+            new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "budi",
+                Password = new PasswordHelper().HashPassword("123"),
+                Role = UserRole.User,
+                FullName = "Budi",
+                DateOfBirth = DateTime.UtcNow,
+                ImageUrl = ImageHelper.GetRandomImageUrl(),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            },
+            new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "charlie",
+                Password = new PasswordHelper().HashPassword("123"),
+                Role = UserRole.User,
+                FullName = "Charlie",
+                DateOfBirth = DateTime.UtcNow,
+                ImageUrl = ImageHelper.GetRandomImageUrl(),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            },
+            new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "delta",
+                Password = new PasswordHelper().HashPassword("123"),
+                Role = UserRole.User,
+                FullName = "Delta",
+                DateOfBirth = DateTime.UtcNow,
+                ImageUrl = ImageHelper.GetRandomImageUrl(),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            },
+            new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "echo",
+                Password = new PasswordHelper().HashPassword("123"),
+                Role = UserRole.User,
+                FullName = "Echo",
+                DateOfBirth = DateTime.UtcNow,
+                ImageUrl = ImageHelper.GetRandomImageUrl(),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            },
+            new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "foxtrot",
+                Password = new PasswordHelper().HashPassword("123"),
+                Role = UserRole.User,
+                FullName = "Foxtrot",
+                DateOfBirth = DateTime.UtcNow,
+                ImageUrl = ImageHelper.GetRandomImageUrl(),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            },
+            new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "golf",
+                Password = new PasswordHelper().HashPassword("123"),
+                Role = UserRole.User,
+                FullName = "Golf",
+                DateOfBirth = DateTime.UtcNow,
+                ImageUrl = ImageHelper.GetRandomImageUrl(),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
             }
         );
 

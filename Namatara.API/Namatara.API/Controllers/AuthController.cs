@@ -21,14 +21,14 @@ namespace Namatara.API.Controllers
             var usr = await context.Users.FirstOrDefaultAsync(x => x.Username == request.Username);
 
             if (usr is null)
-                return Unauthorized(new _ApiResponse<object>
+                return NotFound(new _ApiResponse<object>
                 (
                     statusCode: StatusCodes.Status404NotFound,
                     message: "The user is not found."
                 ));
 
             if (!new PasswordHelper().VerifyPassword(usr.Password, request.Password))
-                return Unauthorized(new _ApiResponse<object>
+                return NotFound(new _ApiResponse<object>
                 (
                     statusCode: StatusCodes.Status404NotFound,
                     message: "The user is not found."
