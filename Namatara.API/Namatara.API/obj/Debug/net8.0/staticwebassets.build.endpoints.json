@@ -1,0 +1,1646 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "Images/air-terjun-gitgit.jpeg",
+      "AssetFile": "Images/air-terjun-gitgit.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:43:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/air-terjun-gitgit.uhvgsr8ul0.jpeg",
+      "AssetFile": "Images/air-terjun-gitgit.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:43:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uhvgsr8ul0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/air-terjun-gitgit.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/bali-international-film-festival.25pv7054ue.jpeg",
+      "AssetFile": "Images/bali-international-film-festival.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:52:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "25pv7054ue"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/bali-international-film-festival.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/bali-international-film-festival.jpeg",
+      "AssetFile": "Images/bali-international-film-festival.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:52:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/bali-mountain-retreat.7r1ntgt1op.jpg",
+      "AssetFile": "Images/bali-mountain-retreat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "474204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:49:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7r1ntgt1op"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/bali-mountain-retreat.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/bali-mountain-retreat.jpg",
+      "AssetFile": "Images/bali-mountain-retreat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "474204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:49:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_acara_festival.45gq2aaime.jpg",
+      "AssetFile": "Images/category_acara_festival.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "543145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:34:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45gq2aaime"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/category_acara_festival.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_acara_festival.jpg",
+      "AssetFile": "Images/category_acara_festival.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "543145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:34:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_homestay.2fgglx69w2.jpeg",
+      "AssetFile": "Images/category_homestay.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "286439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:28:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2fgglx69w2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/category_homestay.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_homestay.jpeg",
+      "AssetFile": "Images/category_homestay.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "286439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:28:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_umkm.emvuqdh4fj.jpeg",
+      "AssetFile": "Images/category_umkm.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:28:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emvuqdh4fj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/category_umkm.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_umkm.jpeg",
+      "AssetFile": "Images/category_umkm.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:28:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag="
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_wisata.0d47eiamuy.jpeg",
+      "AssetFile": "Images/category_wisata.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:28:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0d47eiamuy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/category_wisata.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_wisata.jpeg",
+      "AssetFile": "Images/category_wisata.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:28:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_wisata_edukasi.jpg",
+      "AssetFile": "Images/category_wisata_edukasi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:30:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A="
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_wisata_edukasi.yre4vuasvi.jpg",
+      "AssetFile": "Images/category_wisata_edukasi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:30:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yre4vuasvi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/category_wisata_edukasi.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/festival-bali-arts.42ecdaq4qu.jpeg",
+      "AssetFile": "Images/festival-bali-arts.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:52:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "42ecdaq4qu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/festival-bali-arts.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/festival-bali-arts.jpeg",
+      "AssetFile": "Images/festival-bali-arts.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:52:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/festival-kesenian-ubud.jmvtpb8sxb.jpeg",
+      "AssetFile": "Images/festival-kesenian-ubud.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:51:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jmvtpb8sxb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/festival-kesenian-ubud.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/festival-kesenian-ubud.jpeg",
+      "AssetFile": "Images/festival-kesenian-ubud.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:51:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/homestay-tepi-laut.jobhvs08ur.jpeg",
+      "AssetFile": "Images/homestay-tepi-laut.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:47:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jobhvs08ur"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/homestay-tepi-laut.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/homestay-tepi-laut.jpeg",
+      "AssetFile": "Images/homestay-tepi-laut.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:47:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kebun-edukasi.8adwu5amxl.jpg",
+      "AssetFile": "Images/kebun-edukasi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3328755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:50:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8adwu5amxl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/kebun-edukasi.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/kebun-edukasi.jpg",
+      "AssetFile": "Images/kebun-edukasi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3328755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:50:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s="
+        }
+      ]
+    },
+    {
+      "Route": "Images/museum-sejarah.7epgrukt36.jpg",
+      "AssetFile": "Images/museum-sejarah.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:50:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7epgrukt36"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/museum-sejarah.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/museum-sejarah.jpg",
+      "AssetFile": "Images/museum-sejarah.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:50:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pantai-kuta.jpg",
+      "AssetFile": "Images/pantai-kuta.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:41:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pantai-kuta.lzv5h87zxu.jpg",
+      "AssetFile": "Images/pantai-kuta.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:41:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lzv5h87zxu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pantai-kuta.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/pasar-badung.jpeg",
+      "AssetFile": "Images/pasar-badung.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:46:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pasar-badung.qsvih0066s.jpeg",
+      "AssetFile": "Images/pasar-badung.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:46:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qsvih0066s"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pasar-badung.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/pasar-seni-ubud.4ompcre8kj.jpg",
+      "AssetFile": "Images/pasar-seni-ubud.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:45:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ompcre8kj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pasar-seni-ubud.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/pasar-seni-ubud.jpg",
+      "AssetFile": "Images/pasar-seni-ubud.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:45:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pasar-sukawati.2bmcket6e0.jpg",
+      "AssetFile": "Images/pasar-sukawati.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:47:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2bmcket6e0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pasar-sukawati.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/pasar-sukawati.jpg",
+      "AssetFile": "Images/pasar-sukawati.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:47:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/planetarium.jpg",
+      "AssetFile": "Images/planetarium.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:51:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao="
+        }
+      ]
+    },
+    {
+      "Route": "Images/planetarium.sgqnsbgvvy.jpg",
+      "AssetFile": "Images/planetarium.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:51:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sgqnsbgvvy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/planetarium.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/taman-nasional-bali-barat.c6l89vo1rh.jpg",
+      "AssetFile": "Images/taman-nasional-bali-barat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:44:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c6l89vo1rh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/taman-nasional-bali-barat.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/taman-nasional-bali-barat.jpg",
+      "AssetFile": "Images/taman-nasional-bali-barat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:44:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/villa-bali-seaview.jlntn2f47a.jpeg",
+      "AssetFile": "Images/villa-bali-seaview.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:48:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jlntn2f47a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/villa-bali-seaview.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/villa-bali-seaview.jpeg",
+      "AssetFile": "Images/villa-bali-seaview.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:48:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c="
+        }
+      ]
+    }
+  ]
+}

@@ -21,6 +21,16 @@
   },
   {
     "ContainingType": "Namatara.API.Controllers.AuthController",
+    "Method": "GetCurrentUserTickets",
+    "RelativePath": "api/auth/me/tickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Namatara.API.Controllers.AuthController",
     "Method": "SignIn",
     "RelativePath": "api/auth/sign-in",
     "HttpMethod": "POST",
@@ -124,24 +134,13 @@
     ]
   },
   {
-    "ContainingType": "Namatara.API.Controllers.TourismAttractionsController",
-    "Method": "AddRating",
-    "RelativePath": "api/tourismattractions/{attractionId}/ratings",
-    "HttpMethod": "POST",
+    "ContainingType": "Namatara.API.Controllers.CategoriesController",
+    "Method": "GetCategorieszz",
+    "RelativePath": "api/categories/sssss",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "attractionId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "request",
-        "Type": "Namatara.API.Models.TourismAttractionUserRating",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "Namatara.API.Models._ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
@@ -171,6 +170,68 @@
     "ReturnTypes": [
       {
         "Type": "Namatara.API.Models._ApiResponse\u00601[[Namatara.API.Models.TourismAttraction, Namatara.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Namatara.API.Controllers.TourismAttractionsController",
+    "Method": "BookTicket",
+    "RelativePath": "api/tourismattractions/book-ticket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Namatara.API.Models.TicketBookingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Namatara.API.Controllers.TourismAttractionsController",
+    "Method": "AddRating",
+    "RelativePath": "api/tourismattractions/ratings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Namatara.API.Models.TourismAttractionUserRating",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Namatara.API.Models._ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Namatara.API.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Namatara.API.Models._ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

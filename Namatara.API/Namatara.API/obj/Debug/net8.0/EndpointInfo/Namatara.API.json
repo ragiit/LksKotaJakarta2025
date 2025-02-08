@@ -91,6 +91,18 @@
         }
       }
     },
+    "/api/auth/me/tickets": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/categories": {
       "get": {
         "tags": [
@@ -200,6 +212,35 @@
         }
       }
     },
+    "/api/categories/sssss": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/tourismattractions/{id}": {
       "get": {
         "tags": [
@@ -240,21 +281,10 @@
         }
       }
     },
-    "/api/tourismattractions/{attractionId}/ratings": {
+    "/api/tourismattractions/ratings": {
       "post": {
         "tags": [
           "TourismAttractions"
-        ],
-        "parameters": [
-          {
-            "name": "attractionId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -275,6 +305,66 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/tourismattractions/book-ticket": {
+      "post": {
+        "tags": [
+          "TourismAttractions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TicketBookingRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TicketBookingRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TicketBookingRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/users": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -386,6 +476,32 @@
           },
           "data": {
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TicketBookingRequest": {
+        "type": "object",
+        "properties": {
+          "tourismAttractionId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "numberOfTickets": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "inputPrice": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bookingDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "bookingExpiredDate": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
