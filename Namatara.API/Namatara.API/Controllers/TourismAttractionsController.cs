@@ -83,10 +83,16 @@ namespace Namatara.API.Controllers
 
             if (existingRating != null)
             {
-                return BadRequest(new _ApiResponse<object>(
-                    statusCode: StatusCodes.Status400BadRequest,
-                    message: "You have already rated this attraction."
+                existingRating.Rating = request.Rating;
+                await context.SaveChangesAsync();
+
+                return Ok(new _ApiResponse<object>(
+                    message: "Rating updated successfully."
                 ));
+                //return BadRequest(new _ApiResponse<object>(
+                //    statusCode: StatusCodes.Status400BadRequest,
+                //    message: "You have already rated this attraction."
+                //));
             }
 
             // Add the new rating

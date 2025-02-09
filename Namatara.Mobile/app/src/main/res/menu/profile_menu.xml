@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_category"
+        android:enabled="true"
+        android:icon="@drawable/baseline_auto_awesome_24"
+        android:title="MyRatings" />
+    <item
+        android:id="@+id/page_my_profile"
+        android:enabled="true"
+        android:icon="@drawable/baseline_bookmark_24"
+        android:title="MyBookmarks" />
+</menu>

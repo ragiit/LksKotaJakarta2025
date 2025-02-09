@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment;
 import com.example.namatara.R;
 import com.example.namatara.databinding.ActivityMainBinding;
 import com.example.namatara.fragments.CategoryFragment;
+import com.example.namatara.fragments.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         if (getSupportActionBar() != null) {
-//            getSupportActionBar().setTitle("Home");
-            getSupportActionBar().hide();
+            getSupportActionBar().setTitle("Home");
+//            getSupportActionBar().hide();
             changeFragment(new CategoryFragment());
         }
 
@@ -41,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     }
                 } else {
-//                    if (getSupportActionBar() != null) {
-//                        changeFragment(new MyProfileFragment());
-//                        getSupportActionBar().setTitle("My Profile");
-//                        return true;
-//                    }
+                    if (getSupportActionBar() != null) {
+                        changeFragment(new ProfileFragment());
+                        getSupportActionBar().setTitle("My Profile");
+                        return true;
+                    }
                 }
                 return false;
             }

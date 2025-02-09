@@ -19,7 +19,8 @@ import java.util.concurrent.ExecutionException;
 
 public class _Helper {
 
-    private static String baseURL = "http://192.168.1.11:5000/api/";
+    public static String TOKEN = "";
+    private static String baseURL = "http://192.168.1.5:5000/api/";
     //    private static String baseURL = "http://10.0.2.2:5000/api/";
     private static String baseImageURL = baseURL.replace("api/", "");
 
@@ -58,6 +59,7 @@ public class _Helper {
                 String url = baseURL + strings[0];
                 HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
                 conn.setRequestProperty("Content-Type", "application/json");
+                conn.setRequestProperty("Authorization", "Bearer " + TOKEN);
 
                 if (strings.length > 1) {
                     conn.setDoOutput(true);

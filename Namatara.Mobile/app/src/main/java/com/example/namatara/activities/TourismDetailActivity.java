@@ -1,9 +1,14 @@
 package com.example.namatara.activities;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -50,15 +55,26 @@ public class TourismDetailActivity extends AppCompatActivity {
 
                     // Mengatur title di ActionBar
                     if (getSupportActionBar() != null) {
-                        getSupportActionBar().hide();
+//                        getSupportActionBar().hide();
+                        getSupportActionBar().setDisplayHomeAsUpEnabled(true);  // Menambahkan tombol back
+                        getSupportActionBar().setDisplayShowHomeEnabled(true);  // Menampilkan icon home (back)
+                        getSupportActionBar().setTitle(tourismData.getString("name"));
                     }
 
                     // Menampilkan informasi pariwisata
                     binding.tvName.setText(tourismData.getString("name"));
                     binding.tvDescription.setText(tourismData.getString("description"));
-                    binding.tvLocation.setText("Location: " + tourismData.getString("location"));
-                    binding.tvOpeningHours.setText("Opening Hours: " + tourismData.getString("openingHours"));
-                    binding.tvPrice.setText("Rp." + tourismData.getDouble("price"));
+                    binding.tvLocation.setText("Lokasi: " + tourismData.getString("location"));
+                    binding.tvOpeningHours.setText("Jam Buka: " + tourismData.getString("openingHours"));
+                    // Ambil harga dari JSON
+                    double price = tourismData.getDouble("price");
+
+// Format harga ke Rupiah
+                    NumberFormat formatter = NumberFormat.getCurrencyInstance(new Locale("id", "ID"));
+                    String formattedPrice = formatter.format(price);
+
+// Set ke TextView
+                    binding.tvPrice.setText(formattedPrice);
 //                    binding.tvRating.setText("Rating: " + tourismData.getDouble("rating"));
                     float rating = (float) tourismData.getDouble("rating");
                     binding.ratingBar.setRating(rating);
@@ -73,6 +89,16 @@ public class TourismDetailActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        // Cek apakah tombol back yang ditekan
+        if (item.getItemId() == android.R.id.home) {
+            // Menyelesaikan aktivitas ini (kembali ke aktivitas sebelumnya)
+            onBackPressed();  // Memanggil onBackPressed untuk kembali ke aktivitas sebelumnya
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
     private boolean isBookmarked = false;
 

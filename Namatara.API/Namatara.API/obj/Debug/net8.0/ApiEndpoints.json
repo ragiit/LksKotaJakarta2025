@@ -68,7 +68,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "Namatara.API.Models._ApiResponse\u00601[[Namatara.API.Models.Category, Namatara.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -119,6 +125,11 @@
         "Name": "id",
         "Type": "System.Guid",
         "IsRequired": true
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

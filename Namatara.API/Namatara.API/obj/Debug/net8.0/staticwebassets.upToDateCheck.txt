@@ -9,6 +9,11 @@ wwwroot\Images\category_wisata_edukasi.jpg
 wwwroot\Images\festival-bali-arts.jpeg
 wwwroot\Images\festival-kesenian-ubud.jpeg
 wwwroot\Images\homestay-tepi-laut.jpeg
+wwwroot\Images\image1.jpg
+wwwroot\Images\image2.jpg
+wwwroot\Images\image3.jpg
+wwwroot\Images\image4.jpg
+wwwroot\Images\image5.jpg
 wwwroot\Images\kebun-edukasi.jpg
 wwwroot\Images\museum-sejarah.jpg
 wwwroot\Images\pantai-kuta.jpg

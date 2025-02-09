@@ -56,6 +56,7 @@ public class LoginActivity extends AppCompatActivity {
 
             ResponseModel responseModel = _Helper.httpHelper("auth/sign-in", jsonObject.toString());
             if (responseModel.code == 200) {
+                _Helper.TOKEN = new JSONObject(responseModel.data).getJSONObject("data").getString("token");
                 startActivity(new Intent(this, MainActivity.class));
             } else if (responseModel.code == 404) {
                 Toast.makeText(this, "Invalid Username or Password!", Toast.LENGTH_SHORT).show();

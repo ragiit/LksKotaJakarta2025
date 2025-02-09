@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|d:\\lks\\lkskotajakarta2025\\namatara.api\\namatara.api\\controllers\\tourismattractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|solutionrelative:namatara.api\\controllers\\tourismattractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|d:\\lks\\lkskotajakarta2025\\namatara.api\\namatara.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|solutionrelative:namatara.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|d:\\lks\\lkskotajakarta2025\\namatara.api\\namatara.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|solutionrelative:namatara.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|d:\\lks\\lkskotajakarta2025\\namatara.api\\namatara.api\\models\\tourismattraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|solutionrelative:namatara.api\\models\\tourismattraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|d:\\lks\\lkskotajakarta2025\\namatara.api\\namatara.api\\controllers\\tourismattractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|solutionrelative:namatara.api\\controllers\\tourismattractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|d:\\lks\\lkskotajakarta2025\\namatara.api\\namatara.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,10 +66,6 @@
       "RelativeMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|solutionrelative:namatara.api\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|d:\\lks\\lkskotajakarta2025\\namatara.api\\namatara.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|solutionrelative:namatara.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|d:\\lks\\lkskotajakarta2025\\namatara.api\\namatara.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B6FE692-57B3-4E2E-8B1C-1D2588A81FE3}|Namatara.API\\Namatara.API.csproj|solutionrelative:namatara.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -92,7 +92,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Models\\ApplicationDbContext.cs",
@@ -121,44 +121,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TourismAttractionRating.cs",
-              "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\TourismAttractionRating.cs",
-              "RelativeDocumentMoniker": "Namatara.API\\Models\\TourismAttractionRating.cs",
-              "ToolTip": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\TourismAttractionRating.cs",
-              "RelativeToolTip": "Namatara.API\\Models\\TourismAttractionRating.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA3wBIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T04:31:29.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Namatara.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAowEwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T03:33:39.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TourismAttractionsController.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Controllers\\TourismAttractionsController.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Controllers\\TourismAttractionsController.cs",
               "ToolTip": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Controllers\\TourismAttractionsController.cs",
               "RelativeToolTip": "Namatara.API\\Controllers\\TourismAttractionsController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowGUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowFYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:45:33.17Z"
+              "WhenOpened": "2025-02-04T08:45:33.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TourismAttraction.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\TourismAttraction.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Models\\TourismAttraction.cs",
@@ -170,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Controllers\\CategoriesController.cs",
@@ -182,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\User.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Models\\User.cs",
@@ -194,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Namatara.API.csproj",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Namatara.API.csproj",
               "RelativeDocumentMoniker": "Namatara.API\\Namatara.API.csproj",
@@ -206,7 +195,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Namatara.API\\appsettings.json",
+              "ToolTip": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\appsettings.json",
+              "RelativeToolTip": "Namatara.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-04T03:33:11.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TourismAttractionRating.cs",
+              "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\TourismAttractionRating.cs",
+              "RelativeDocumentMoniker": "Namatara.API\\Models\\TourismAttractionRating.cs",
+              "ToolTip": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\TourismAttractionRating.cs",
+              "RelativeToolTip": "Namatara.API\\Models\\TourismAttractionRating.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA3wBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T04:31:29.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_ApiResponse.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\_ApiResponse.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Models\\_ApiResponse.cs",
@@ -218,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PasswordHelper.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\PasswordHelper.cs",
               "RelativeDocumentMoniker": "Namatara.API\\PasswordHelper.cs",
@@ -230,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Program.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Program.cs",
@@ -242,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ImageHelper.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\ImageHelper.cs",
               "RelativeDocumentMoniker": "Namatara.API\\ImageHelper.cs",
@@ -254,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "20250204075629_Init.cs",
               "DocumentMoniker": "D:\\LKS\\Namatara.API\\Namatara.API\\Migrations\\20250204075629_Init.cs",
               "RelativeDocumentMoniker": "..\\..\\Namatara.API\\Namatara.API\\Migrations\\20250204075629_Init.cs",
@@ -266,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TicketBooking.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\TicketBooking.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Models\\TicketBooking.cs",
@@ -278,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_AuditEntity.cs",
               "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Models\\_AuditEntity.cs",
               "RelativeDocumentMoniker": "Namatara.API\\Models\\_AuditEntity.cs",
@@ -287,18 +301,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T03:52:54.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Namatara.API\\appsettings.json",
-              "ToolTip": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\appsettings.json",
-              "RelativeToolTip": "Namatara.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-04T03:33:11.179Z"
             },
             {
               "$type": "Document",

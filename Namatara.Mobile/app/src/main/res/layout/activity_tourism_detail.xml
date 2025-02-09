@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     tools:context=".activities.TourismDetailActivity">
 
     <!-- Tourism Image -->
     <ImageView
         android:id="@+id/ivTourismImage"
         android:layout_width="0dp"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
         android:src="@drawable/signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <!-- Title and Price -->
     <LinearLayout
@@ -24,6 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:orientation="horizontal"
         android:weightSum="2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,8 +40,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.5"
-            android:ellipsize="end"
-            android:maxLines="1"
             android:text="Tourism Name"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -63,10 +65,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Location: -"
-        android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearTitlePrice"
+        app:layout_constraintStart_toStartOf="@+id/linearTitlePrice"
         app:layout_constraintTop_toBottomOf="@id/linearTitlePrice" />
 
     <!-- Opening Hours -->
@@ -76,10 +77,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="Opening Hours: -"
-        android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvLocation"
+        app:layout_constraintStart_toStartOf="@+id/linearTitlePrice"
         app:layout_constraintTop_toBottomOf="@id/tvLocation" />
 
     <!-- Description -->
@@ -88,25 +88,21 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:ellipsize="end"
-        android:maxLines="5"
         android:text="Description of the tourism attraction"
-        android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearTitlePrice"
+        app:layout_constraintStart_toStartOf="@+id/linearTitlePrice"
         app:layout_constraintTop_toBottomOf="@id/tvOpeningHours" />
 
     <!-- Rating Bar dan Bookmark -->
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toEndOf="@+id/tvDescription"
+        app:layout_constraintStart_toStartOf="@+id/tvDescription">
 
         <!-- Rating Bar -->
         <RatingBar
