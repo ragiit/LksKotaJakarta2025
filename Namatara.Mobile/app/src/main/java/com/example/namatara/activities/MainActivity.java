@@ -26,8 +26,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         if (getSupportActionBar() != null) {
+//            getSupportActionBar().setTitle("Home");
+            getSupportActionBar().hide();
             changeFragment(new CategoryFragment());
-            getSupportActionBar().setTitle("Home");
         }
 
         binding.bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

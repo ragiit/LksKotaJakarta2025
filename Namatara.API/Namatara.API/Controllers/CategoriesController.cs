@@ -15,22 +15,29 @@ namespace Namatara.API.Controllers
     {
         // GET: api/Categories
         [HttpGet]
-        public async Task<ActionResult<_ApiResponse<Category>>> GetCategories()
+        public async Task<ActionResult<_ApiResponse<Category>>> GetCategories(string search = "")
         {
+            // Memfilter berdasarkan query 'search' jika ada
+            var categoriesQuery = context.Categories
+                .Where(x => string.IsNullOrEmpty(search) || x.Name.Contains(search) || x.Description.Contains(search))
+                .Select(x => new
+                {
+                    x.Id,
+                    x.Name,
+                    x.Description,
+                    x.ImageUrl
+                })
+                .OrderBy(x => x.Name)
+                .AsNoTracking();
+
+            var categories = await categoriesQuery.ToListAsync();
+
             return Ok(new _ApiResponse<object>
             (
-                data: await context.Categories.Select(x => new
-                    {
-                        x.Id,
-                        x.Name,
-                        x.Description,
-                        x.ImageUrl
-                    })
-                    .OrderBy(x => x.Name)
-                    .AsNoTracking()
-                    .ToListAsync()
+                data: categories
             ));
         }
+
 
         // GET: api/Categories/d99e5c64-f169-4b3c-8be5-502ca48d66d5
         [HttpGet("{id}")]
@@ -60,7 +67,7 @@ namespace Namatara.API.Controllers
         }
 
         [HttpGet("{id}/attractions")]
-        public async Task<ActionResult<TourismAttraction>> GetCategoryWithAttractions(Guid id)
+        public async Task<ActionResult<TourismAttraction>> GetCategoryWithAttractions(Guid id, string search = "")
         {
             var category = await context.Categories.FindAsync(id);
 
@@ -73,8 +80,18 @@ namespace Namatara.API.Controllers
                 ));
             }
 
-            var attractions = await context.TourismAttractions
+            var attractionsQuery = context.TourismAttractions
                 .Where(x => x.CategoryId == id)
+                .AsQueryable(); // Mulai sebagai IQueryable agar bisa diubah sesuai search
+
+            // Tambahkan filter berdasarkan search jika ada
+            if (!string.IsNullOrEmpty(search))
+            {
+                attractionsQuery = attractionsQuery
+                    .Where(x => x.Name.Contains(search) || x.Description.Contains(search));
+            }
+
+            var attractions = await attractionsQuery
                 .Select(x => new
                 {
                     x.Id,
@@ -84,7 +101,7 @@ namespace Namatara.API.Controllers
                     x.Description,
                     x.Location,
                     x.OpeningHours,
-                    AverageRating = x.Ratings.Any() ? x.Ratings.Average(r => r.Rating) : 0,
+                    AverageRating = x.Ratings.Count != 0 ? x.Ratings.Average(r => r.Rating) : 0,
                     x.ImageUrl
                 })
                 .OrderBy(x => x.Name)

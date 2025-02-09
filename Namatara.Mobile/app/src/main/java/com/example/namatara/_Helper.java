@@ -19,9 +19,9 @@ import java.util.concurrent.ExecutionException;
 
 public class _Helper {
 
-    private static String baseURL = "http://10.0.2.2:5000/api/";
+    private static String baseURL = "http://192.168.1.11:5000/api/";
     //    private static String baseURL = "http://10.0.2.2:5000/api/";
-    private static String baseImageURL = baseURL.replace("api/", "") + "images/";
+    private static String baseImageURL = baseURL.replace("api/", "");
 
     public static void httpGetImage(Context context, String url, ImageView imageView) {
         new Thread(new Runnable() {

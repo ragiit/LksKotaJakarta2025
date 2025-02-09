@@ -8,13 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.namatara.R;
 import com.example.namatara._Helper;
+import com.example.namatara.adapters.CategoryAdapter;
 import com.example.namatara.databinding.FragmentCategoryBinding;
 import com.example.namatara.models.ResponseModel;
 
-import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 public class CategoryFragment extends Fragment {
 
@@ -24,20 +24,42 @@ public class CategoryFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentCategoryBinding.inflate(getLayoutInflater());
 
-        getCategories();
+        setupSearchView();
+        getCategories("");
 
         return binding.getRoot();
     }
 
-    private void getCategories() {
-        ResponseModel responseModel = _Helper.httpHelper("categories");
+    private void setupSearchView() {
+        // Pastikan binding menggunakan SearchView yang berasal dari androidx.appcompat.widget.SearchView
+        binding.searchView.setOnQueryTextListener(new androidx.appcompat.widget.SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                getCategories(query); // Panggil fungsi pencarian dengan query
+                return true;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                getCategories(newText); // Panggil fungsi pencarian dengan query terbaru
+                return true;
+            }
+        });
+    }
+
+    private void getCategories(String search) {
+        String Url = "categories";
+        if (!search.isEmpty())
+            Url = "categories?search=" + search;
+
+        ResponseModel responseModel = _Helper.httpHelper(Url);
         if (responseModel.code == 200) {
-//            try {
-////                CategoryAdapter adapter = new CategoryAdapter(new JSONArray(responseModel.data));
-////                binding.recyclerView.setAdapter(adapter);
-//            } catch (JSONException e) {
-//                throw new RuntimeException(e);
-//            }
+            try {
+                CategoryAdapter adapter = new CategoryAdapter(new JSONObject(responseModel.data).getJSONArray("data"));
+                binding.recyclerView.setAdapter(adapter);
+            } catch (JSONException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
