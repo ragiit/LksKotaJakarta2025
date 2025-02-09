@@ -3,11 +3,13 @@ package com.example.namatara.fragments;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
@@ -21,6 +23,7 @@ import com.example.namatara.adapters.RatingAdapter;
 import com.example.namatara.databinding.FragmentCategoryBinding;
 import com.example.namatara.databinding.FragmentProfileBinding;
 import com.example.namatara.models.ResponseModel;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -61,6 +64,19 @@ public class ProfileFragment extends Fragment {
             Toast.makeText(getContext(), responseModel.data, Toast.LENGTH_SHORT).show();
         }
 
+        binding.bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                if (item.getItemId() == R.id.page_ratings) {
+                    getRatings();
+                    return true;
+                } else {
+                    getBookmarks();
+                    return true;
+                }
+            }
+        });
+
 
         return binding.getRoot();
     }
@@ -70,7 +86,21 @@ public class ProfileFragment extends Fragment {
         if (responseModel.code == 200) {
             try {
                 RatingAdapter adapter = new RatingAdapter(new JSONObject(responseModel.data).getJSONArray("data"));
-                binding.recyclerView.setLayoutManager(new GridLayoutManager(this.getContext(),2));
+                binding.recyclerView.setLayoutManager(new GridLayoutManager(this.getContext(), 2));
+                binding.recyclerView.setAdapter(adapter);
+
+            } catch (JSONException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+    private void getBookmarks() {
+        ResponseModel responseModel = _Helper.httpHelper("auth/me/bookmarks");
+        if (responseModel.code == 200) {
+            try {
+                RatingAdapter adapter = new RatingAdapter(new JSONObject(responseModel.data).getJSONArray("data"));
+                binding.recyclerView.setLayoutManager(new GridLayoutManager(this.getContext(), 2));
                 binding.recyclerView.setAdapter(adapter);
 
             } catch (JSONException e) {

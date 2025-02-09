@@ -91,7 +91,7 @@
         }
       }
     },
-    "/api/auth/me/tickets": {
+    "/api/auth/me/bookmarks": {
       "get": {
         "tags": [
           "Auth"
@@ -347,7 +347,7 @@
         }
       }
     },
-    "/api/tourismattractions/book-ticket": {
+    "/api/tourismattractions/bookmark": {
       "post": {
         "tags": [
           "TourismAttractions"
@@ -356,24 +356,81 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/TicketBookingRequest"
+                "$ref": "#/components/schemas/TourismAttractionBookmarkRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/TicketBookingRequest"
+                "$ref": "#/components/schemas/TourismAttractionBookmarkRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/TicketBookingRequest"
+                "$ref": "#/components/schemas/TourismAttractionBookmarkRequest"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/tourismattractions/{id}/is-bookmark": {
+      "get": {
+        "tags": [
+          "TourismAttractions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Object_ApiResponse"
+                }
+              }
+            }
           }
         }
       }
@@ -498,32 +555,6 @@
         },
         "additionalProperties": false
       },
-      "TicketBookingRequest": {
-        "type": "object",
-        "properties": {
-          "tourismAttractionId": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "numberOfTickets": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "inputPrice": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "bookingDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "bookingExpiredDate": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
       "TourismAttraction": {
         "type": "object",
         "properties": {
@@ -594,6 +625,16 @@
         },
         "additionalProperties": false
       },
+      "TourismAttractionBookmarkRequest": {
+        "type": "object",
+        "properties": {
+          "tourismAttractionId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
       "TourismAttractionRating": {
         "type": "object",
         "properties": {
@@ -612,10 +653,6 @@
           "rating": {
             "type": "number",
             "format": "double"
-          },
-          "review": {
-            "type": "string",
-            "nullable": true
           },
           "tourismAttraction": {
             "$ref": "#/components/schemas/TourismAttraction"
@@ -636,10 +673,6 @@
           "rating": {
             "type": "number",
             "format": "double"
-          },
-          "review": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

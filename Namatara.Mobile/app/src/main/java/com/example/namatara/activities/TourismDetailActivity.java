@@ -42,6 +42,8 @@ public class TourismDetailActivity extends AppCompatActivity {
             }
         });
 
+        checkBookmarkStatus();
+
         // Event klik tombol Bookmark
         binding.btnBookmark.setOnClickListener(v -> toggleBookmark());
 
@@ -103,9 +105,61 @@ public class TourismDetailActivity extends AppCompatActivity {
     private boolean isBookmarked = false;
 
     private void toggleBookmark() {
-        isBookmarked = !isBookmarked;
-        binding.btnBookmark.setImageResource(isBookmarked ? R.drawable.baseline_bookmark_24 : R.drawable.baseline_bookmark_border_24);
-        Toast.makeText(this, isBookmarked ? "Added to bookmarks" : "Removed from bookmarks", Toast.LENGTH_SHORT).show();
+        addBookmark();
+    }
+
+    private void checkBookmarkStatus() {
+        try {
+            String a= "tourismattractions/" + jsonObject.getString("id") + "/is-bookmark";
+            ResponseModel responseModel = _Helper.httpHelper(a);
+            if (responseModel.code == 200) {
+                try {
+                    JSONObject jsonObject = new JSONObject(responseModel.data);
+                    isBookmarked = jsonObject.getBoolean("data");
+                    updateBookmarkUI(isBookmarked);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    private void addBookmark() {
+        JSONObject postData = new JSONObject();
+        try {
+            postData.put("tourismAttractionId", jsonObject.getString("id"));
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        ResponseModel responseModel = _Helper.httpHelper("tourismattractions/bookmark", postData.toString());
+        if (responseModel.code == 200) {
+            JSONObject jsonObject = null;
+            try {
+                jsonObject = new JSONObject(responseModel.data);
+                boolean b = jsonObject.getBoolean("data");
+                updateBookmarkUI(b);
+                if (b)
+                {
+                    Toast.makeText(this, "Added to bookmarks", Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    Toast.makeText(this, "Bookmark removed", Toast.LENGTH_SHORT).show();
+                }
+            } catch (JSONException e) {
+            }
+        } else {
+            Toast.makeText(this, "Failed to add bookmark", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void updateBookmarkUI(boolean isBookmarked) {
+        binding.btnBookmark.setImageResource(isBookmarked ?
+                R.drawable.baseline_bookmark_24 : R.drawable.baseline_bookmark_border_24);
     }
 
     private void sendRatingToAPI(float rating) {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Azure.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -127,7 +128,7 @@ namespace Namatara.API.Controllers
             }
 
             // Check if the attraction exists
-            var attraction = await context.TourismAttractionBookmarks.FindAsync(request.TourismAttractionId);
+            var attraction = await context.TourismAttractions.FindAsync(request.TourismAttractionId);
             if (attraction == null)
             {
                 return NotFound(new _ApiResponse<object>(
@@ -145,7 +146,8 @@ namespace Namatara.API.Controllers
                 context.TourismAttractionBookmarks.Remove(exstingBookmark);
                 await context.SaveChangesAsync();
                 return Ok(new _ApiResponse<object>(
-                    message: "Bookmark removed successfully."
+                    message: "Bookmark removed successfully.",
+                 data: await context.TourismAttractionBookmarks.AnyAsync(x => x.TourismAttractionId == request.TourismAttractionId)
                 ));
             }
 
@@ -161,8 +163,37 @@ namespace Namatara.API.Controllers
             await context.SaveChangesAsync();
 
             return Ok(new _ApiResponse<object>(
-                message: "Rating added successfully."
+                message: "Bookmark updated successfully.",
+                data: await context.TourismAttractionBookmarks.AnyAsync(x => x.TourismAttractionId == request.TourismAttractionId)
             ));
+        }
+
+        [HttpGet("{id}/is-bookmark")]
+        [Authorize]
+        public async Task<ActionResult<_ApiResponse<object>>> AddBookmark(Guid id)
+        {
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+            if (userIdClaim == null || !Guid.TryParse(userIdClaim, out var userId))
+            {
+                return Unauthorized(new _ApiResponse<object>(
+                    statusCode: StatusCodes.Status401Unauthorized,
+                    message: "Invalid user authentication."
+                ));
+            }
+
+            // Check if the attraction exists
+            var attraction = await context.TourismAttractions.FindAsync(id);
+            if (attraction == null)
+            {
+                return NotFound(new _ApiResponse<object>(
+                    statusCode: StatusCodes.Status404NotFound,
+                    message: "Tourism attraction not found."
+                ));
+            }
+
+            return Ok(new _ApiResponse<object>(
+                data: await context.TourismAttractionBookmarks.AnyAsync(x => x.TourismAttractionId == id)
+           ));
         }
 
         //     [HttpPost("book-ticket")]

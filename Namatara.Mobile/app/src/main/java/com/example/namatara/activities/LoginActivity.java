@@ -28,8 +28,8 @@ public class LoginActivity extends AppCompatActivity {
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.edtUsername.getEditText().setText("admin");
-        binding.edtPassword.getEditText().setText("adminpassword");
+    //    binding.edtUsername.getEditText().setText("admin");
+//        binding.edtPassword.getEditText().setText("adminpassword");
 
 //        binding.edtUsername.getEditText().setText("dkiley3");
 //        binding.edtPassword.getEditText().setText("uO4tF2");
