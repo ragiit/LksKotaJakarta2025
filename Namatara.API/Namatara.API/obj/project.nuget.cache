@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ti7cEbr1Ju4=",
+  "dgSpecHash": "FvgrkZnPk28=",
   "success": true,
-  "projectFilePath": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Namatara.API.csproj",
+  "projectFilePath": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Namatara.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\argip\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\argip\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

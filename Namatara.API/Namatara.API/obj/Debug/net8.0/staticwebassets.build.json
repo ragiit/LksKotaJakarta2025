@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j+azNXdnOybUZwEqe3AlK7EFC/qc4TEVE+iDbyLEzso=",
+  "Hash": "zdCZ2nxPN5/duHpM1lAlKGGwDhdftTSD26o5KaXNX7M=",
   "Source": "Namatara.API",
   "BasePath": "_content/Namatara.API",
   "Mode": "Default",
@@ -10,2588 +10,486 @@
     {
       "Name": "Namatara.API\\wwwroot",
       "Source": "Namatara.API",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\air-terjun-gitgit.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\air-terjun-gitgit.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/air-terjun-gitgit#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/air-terjun-gitgit.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "uhvgsr8ul0",
-      "Integrity": "cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\air-terjun-gitgit.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\bali-international-film-festival.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\bali-international-film-festival.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/bali-international-film-festival#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/bali-international-film-festival.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "25pv7054ue",
-      "Integrity": "BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\bali-international-film-festival.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\bali-mountain-retreat.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\bali-mountain-retreat.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/bali-mountain-retreat#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/bali-mountain-retreat.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7r1ntgt1op",
-      "Integrity": "o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\bali-mountain-retreat.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_acara_festival.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_acara_festival.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/category_acara_festival#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/category_acara_festival.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "45gq2aaime",
-      "Integrity": "OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\category_acara_festival.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_homestay.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_homestay.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/category_homestay#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/category_homestay.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2fgglx69w2",
-      "Integrity": "4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\category_homestay.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_umkm.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_umkm.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/category_umkm#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/category_umkm.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "emvuqdh4fj",
-      "Integrity": "akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\category_umkm.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata_edukasi.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/category_wisata#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/category_wisata_edukasi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0d47eiamuy",
-      "Integrity": "1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\category_wisata.jpeg"
-    },
-    {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata_edukasi.jpg",
-      "SourceId": "Namatara.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
-      "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/category_wisata_edukasi#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "yre4vuasvi",
-      "Integrity": "MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\category_wisata_edukasi.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-bali-arts.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/festival-bali-arts#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/category_wisata.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "42ecdaq4qu",
-      "Integrity": "1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\category_wisata.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-bali-arts.jpeg",
+      "SourceId": "Namatara.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "BasePath": "_content/Namatara.API",
+      "RelativePath": "Images/festival-bali-arts.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\festival-bali-arts.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-kesenian-ubud.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-kesenian-ubud.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/festival-kesenian-ubud#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/festival-kesenian-ubud.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jmvtpb8sxb",
-      "Integrity": "W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\festival-kesenian-ubud.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\homestay-tepi-laut.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\homestay-tepi-laut.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/homestay-tepi-laut#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/homestay-tepi-laut.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jobhvs08ur",
-      "Integrity": "nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\homestay-tepi-laut.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image1.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image1.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/image1#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/image1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cf47i534gz",
-      "Integrity": "2DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\image1.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image2.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image2.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/image2#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/image2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kupxmtxgzh",
-      "Integrity": "HHusmPbquV8zy1qLZZT8cGwNV+WRsIJwXBHWWjctbtE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\image2.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image3.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image3.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/image3#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/image3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o5ayn5ntyo",
-      "Integrity": "FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\image3.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image4.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image4.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/image4#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/image4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hq3xdrbmyx",
-      "Integrity": "18Xm7Zco+PbovbzFjmcN+vQSGSekN5wCV2W0SwXn0k4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\image4.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image5.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image5.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/image5#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/image5.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2sb304zjpg",
-      "Integrity": "niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\image5.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\kebun-edukasi.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\kebun-edukasi.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/kebun-edukasi#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/kebun-edukasi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8adwu5amxl",
-      "Integrity": "wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\kebun-edukasi.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\museum-sejarah.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\museum-sejarah.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/museum-sejarah#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/museum-sejarah.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7epgrukt36",
-      "Integrity": "cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\museum-sejarah.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pantai-kuta.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pantai-kuta.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/pantai-kuta#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/pantai-kuta.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lzv5h87zxu",
-      "Integrity": "MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\pantai-kuta.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-badung.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-badung.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/pasar-badung#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/pasar-badung.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qsvih0066s",
-      "Integrity": "hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\pasar-badung.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-seni-ubud.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-seni-ubud.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/pasar-seni-ubud#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/pasar-seni-ubud.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4ompcre8kj",
-      "Integrity": "/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\pasar-seni-ubud.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-sukawati.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-sukawati.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/pasar-sukawati#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/pasar-sukawati.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2bmcket6e0",
-      "Integrity": "Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\pasar-sukawati.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\planetarium.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\planetarium.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/planetarium#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/planetarium.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sgqnsbgvvy",
-      "Integrity": "vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\planetarium.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\taman-nasional-bali-barat.jpg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\taman-nasional-bali-barat.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/taman-nasional-bali-barat#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/taman-nasional-bali-barat.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c6l89vo1rh",
-      "Integrity": "zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\taman-nasional-bali-barat.jpg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\villa-bali-seaview.jpeg",
+      "Identity": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\villa-bali-seaview.jpeg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\argip\\Git Repositories\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
       "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/villa-bali-seaview#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Images/villa-bali-seaview.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jlntn2f47a",
-      "Integrity": "STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\villa-bali-seaview.jpeg"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "Images/air-terjun-gitgit.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\air-terjun-gitgit.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "66944"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:43:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ="
-        }
-      ]
-    },
-    {
-      "Route": "Images/air-terjun-gitgit.uhvgsr8ul0.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\air-terjun-gitgit.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "66944"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:43:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uhvgsr8ul0"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/air-terjun-gitgit.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cuthYFgKU2x+De/Kjj0LQxGxriPizAHFwUBgkDfV2SQ="
-        }
-      ]
-    },
-    {
-      "Route": "Images/bali-international-film-festival.25pv7054ue.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\bali-international-film-festival.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9390"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:52:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "25pv7054ue"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/bali-international-film-festival.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY="
-        }
-      ]
-    },
-    {
-      "Route": "Images/bali-international-film-festival.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\bali-international-film-festival.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9390"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:52:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY="
-        }
-      ]
-    },
-    {
-      "Route": "Images/bali-mountain-retreat.7r1ntgt1op.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\bali-mountain-retreat.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "474204"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:49:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7r1ntgt1op"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/bali-mountain-retreat.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA="
-        }
-      ]
-    },
-    {
-      "Route": "Images/bali-mountain-retreat.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\bali-mountain-retreat.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "474204"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:49:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_acara_festival.45gq2aaime.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_acara_festival.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "543145"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:34:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "45gq2aaime"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/category_acara_festival.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_acara_festival.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_acara_festival.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "543145"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:34:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OJ7l+p0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq+1lw="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_homestay.2fgglx69w2.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_homestay.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "286439"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:28:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2fgglx69w2"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/category_homestay.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_homestay.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_homestay.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "286439"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:28:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_umkm.emvuqdh4fj.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_umkm.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54661"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:28:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "emvuqdh4fj"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/category_umkm.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_umkm.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_umkm.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54661"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:28:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_wisata.0d47eiamuy.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "206011"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:28:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0d47eiamuy"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/category_wisata.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_wisata.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "206011"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:28:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_wisata_edukasi.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata_edukasi.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "77822"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:30:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_wisata_edukasi.yre4vuasvi.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata_edukasi.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "77822"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:30:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yre4vuasvi"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/category_wisata_edukasi.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A="
-        }
-      ]
-    },
-    {
-      "Route": "Images/festival-bali-arts.42ecdaq4qu.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-bali-arts.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18858"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:52:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "42ecdaq4qu"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/festival-bali-arts.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg="
-        }
-      ]
-    },
-    {
-      "Route": "Images/festival-bali-arts.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-bali-arts.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18858"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:52:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1PgsheOW8i6rf3C65SoS7DjljS+Ylu6XeNhmoMNzkQg="
-        }
-      ]
-    },
-    {
-      "Route": "Images/festival-kesenian-ubud.jmvtpb8sxb.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-kesenian-ubud.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14863"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:51:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jmvtpb8sxb"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/festival-kesenian-ubud.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w="
-        }
-      ]
-    },
-    {
-      "Route": "Images/festival-kesenian-ubud.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-kesenian-ubud.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14863"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:51:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-W4qvvCG/K4oV+56etstbOdw2zuuett2UgSII9oDw9/w="
-        }
-      ]
-    },
-    {
-      "Route": "Images/homestay-tepi-laut.jobhvs08ur.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\homestay-tepi-laut.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8924"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:47:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jobhvs08ur"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/homestay-tepi-laut.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc="
-        }
-      ]
-    },
-    {
-      "Route": "Images/homestay-tepi-laut.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\homestay-tepi-laut.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8924"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:47:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image1.cf47i534gz.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43660"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cf47i534gz"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/image1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image1.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43660"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image2.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "57176"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HHusmPbquV8zy1qLZZT8cGwNV+WRsIJwXBHWWjctbtE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HHusmPbquV8zy1qLZZT8cGwNV+WRsIJwXBHWWjctbtE="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image2.kupxmtxgzh.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "57176"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HHusmPbquV8zy1qLZZT8cGwNV+WRsIJwXBHWWjctbtE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kupxmtxgzh"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/image2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HHusmPbquV8zy1qLZZT8cGwNV+WRsIJwXBHWWjctbtE="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image3.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "69152"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image3.o5ayn5ntyo.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "69152"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o5ayn5ntyo"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/image3.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image4.hq3xdrbmyx.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image4.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "63447"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"18Xm7Zco+PbovbzFjmcN+vQSGSekN5wCV2W0SwXn0k4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hq3xdrbmyx"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/image4.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-18Xm7Zco+PbovbzFjmcN+vQSGSekN5wCV2W0SwXn0k4="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image4.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image4.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "63447"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"18Xm7Zco+PbovbzFjmcN+vQSGSekN5wCV2W0SwXn0k4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-18Xm7Zco+PbovbzFjmcN+vQSGSekN5wCV2W0SwXn0k4="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image5.2sb304zjpg.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image5.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "56189"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2sb304zjpg"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/image5.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4="
-        }
-      ]
-    },
-    {
-      "Route": "Images/image5.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\image5.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "56189"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 05:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4="
-        }
-      ]
-    },
-    {
-      "Route": "Images/kebun-edukasi.8adwu5amxl.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\kebun-edukasi.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3328755"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:50:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8adwu5amxl"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/kebun-edukasi.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s="
-        }
-      ]
-    },
-    {
-      "Route": "Images/kebun-edukasi.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\kebun-edukasi.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3328755"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:50:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wMJd76CJ6L/xbV0JMagybwUN0m0/9K+JxN3UAFqrR4s="
-        }
-      ]
-    },
-    {
-      "Route": "Images/museum-sejarah.7epgrukt36.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\museum-sejarah.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "284419"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:50:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7epgrukt36"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/museum-sejarah.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA="
-        }
-      ]
-    },
-    {
-      "Route": "Images/museum-sejarah.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\museum-sejarah.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "284419"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:50:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cWhLrXY+EsPnyq9b3wZ3fI7ljIHtiDFzG+PnaC5fyRA="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pantai-kuta.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pantai-kuta.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "83704"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:41:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pantai-kuta.lzv5h87zxu.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pantai-kuta.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "83704"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:41:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lzv5h87zxu"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/pantai-kuta.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pasar-badung.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-badung.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13559"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:46:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pasar-badung.qsvih0066s.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-badung.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13559"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:46:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qsvih0066s"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/pasar-badung.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hl3z3o2+GxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pasar-seni-ubud.4ompcre8kj.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-seni-ubud.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51643"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:45:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4ompcre8kj"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/pasar-seni-ubud.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pasar-seni-ubud.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-seni-ubud.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51643"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:45:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pasar-sukawati.2bmcket6e0.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-sukawati.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49519"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:47:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2bmcket6e0"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/pasar-sukawati.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U="
-        }
-      ]
-    },
-    {
-      "Route": "Images/pasar-sukawati.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\pasar-sukawati.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49519"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:47:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U="
-        }
-      ]
-    },
-    {
-      "Route": "Images/planetarium.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\planetarium.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "52740"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:51:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao="
-        }
-      ]
-    },
-    {
-      "Route": "Images/planetarium.sgqnsbgvvy.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\planetarium.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "52740"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:51:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sgqnsbgvvy"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/planetarium.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vE019vlyL1lvh3vH2VakbNOgkbPlbK5+UWFwILvl8Ao="
-        }
-      ]
-    },
-    {
-      "Route": "Images/taman-nasional-bali-barat.c6l89vo1rh.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\taman-nasional-bali-barat.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "159876"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:44:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c6l89vo1rh"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/taman-nasional-bali-barat.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc="
-        }
-      ]
-    },
-    {
-      "Route": "Images/taman-nasional-bali-barat.jpg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\taman-nasional-bali-barat.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "159876"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:44:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc="
-        }
-      ]
-    },
-    {
-      "Route": "Images/villa-bali-seaview.jlntn2f47a.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\villa-bali-seaview.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16194"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jlntn2f47a"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/villa-bali-seaview.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/villa-bali-seaview.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\villa-bali-seaview.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16194"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb+xY4jgR6c="
-        }
-      ]
     }
   ]
 }
