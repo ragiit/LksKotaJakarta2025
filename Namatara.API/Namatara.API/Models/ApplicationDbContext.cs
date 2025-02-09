@@ -8,9 +8,9 @@ namespace Namatara.API.Models
         #region DbSet
 
         public DbSet<Category> Categories { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<TicketBooking> TicketBookings { get; set; }
+        public DbSet<User> Users { get; set; } 
         public DbSet<TourismAttraction> TourismAttractions { get; set; }
+        public DbSet<TourismAttractionBookmark> TourismAttractionBookmarks { get; set; }
         public DbSet<TourismAttractionRating> TourismAttractionRatings { get; set; }
 
         #endregion DbSet

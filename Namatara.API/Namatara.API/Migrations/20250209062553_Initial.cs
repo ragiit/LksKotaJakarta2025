@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Namatara.API.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -78,20 +78,12 @@ namespace Namatara.API.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "TicketBookings",
+                name: "TourismAttractionBookmarks",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     TourismAttractionId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Code = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NumberOfPersons = table.Column<int>(type: "int", nullable: false),
-                    NumberOfTickets = table.Column<int>(type: "int", nullable: false),
-                    InputPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    TotalPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    BookingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    BookingExpiredDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
@@ -99,15 +91,15 @@ namespace Namatara.API.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_TicketBookings", x => x.Id);
+                    table.PrimaryKey("PK_TourismAttractionBookmarks", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_TicketBookings_TourismAttractions_TourismAttractionId",
+                        name: "FK_TourismAttractionBookmarks_TourismAttractions_TourismAttractionId",
                         column: x => x.TourismAttractionId,
                         principalTable: "TourismAttractions",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_TicketBookings_Users_UserId",
+                        name: "FK_TourismAttractionBookmarks_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -121,8 +113,7 @@ namespace Namatara.API.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     TourismAttractionId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Rating = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Review = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Rating = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -142,13 +133,13 @@ namespace Namatara.API.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_TicketBookings_TourismAttractionId",
-                table: "TicketBookings",
+                name: "IX_TourismAttractionBookmarks_TourismAttractionId",
+                table: "TourismAttractionBookmarks",
                 column: "TourismAttractionId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_TicketBookings_UserId",
-                table: "TicketBookings",
+                name: "IX_TourismAttractionBookmarks_UserId",
+                table: "TourismAttractionBookmarks",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
@@ -171,7 +162,7 @@ namespace Namatara.API.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "TicketBookings");
+                name: "TourismAttractionBookmarks");
 
             migrationBuilder.DropTable(
                 name: "TourismAttractionRatings");

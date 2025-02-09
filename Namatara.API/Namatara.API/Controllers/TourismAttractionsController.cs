@@ -102,7 +102,6 @@ namespace Namatara.API.Controllers
                 TourismAttractionId = request.TourismAttractionId,
                 UserId = userId,
                 Rating = request.Rating,
-                Review = request.Review
             };
 
             context.TourismAttractionRatings.Add(newRating);
@@ -113,9 +112,10 @@ namespace Namatara.API.Controllers
             ));
         }
 
-        [HttpPost("book-ticket")]
+        [HttpPost("bookmark")]
         [Authorize]
-        public async Task<IActionResult> BookTicket([FromBody] TicketBookingRequest request)
+        public async Task<ActionResult<_ApiResponse<object>>> AddBookmark(
+            [FromBody] TourismAttractionBookmarkRequest request)
         {
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
             if (userIdClaim == null || !Guid.TryParse(userIdClaim, out var userId))
@@ -126,96 +126,149 @@ namespace Namatara.API.Controllers
                 ));
             }
 
-            bool checkBookToday = await context.TicketBookings.AnyAsync(
-                x => x.UserId == userId && x.BookingDate.Date == DateTime.Now.Date &&
-                     x.TourismAttractionId == request.TourismAttractionId
-            );
-
-            if (checkBookToday)
+            // Check if the attraction exists
+            var attraction = await context.TourismAttractionBookmarks.FindAsync(request.TourismAttractionId);
+            if (attraction == null)
             {
-                return BadRequest(new _ApiResponse<object>(
-                    statusCode: StatusCodes.Status400BadRequest,
-                    message: "You have already booked a ticket today."
-                ));
-            }
-
-            if (request.BookingDate.Date < DateTime.Now.Date)
-            {
-                return BadRequest(new _ApiResponse<object>(
-                    statusCode: StatusCodes.Status400BadRequest,
-                    message: "Booking date must be today or later."
-                ));
-            }
-
-            if (request.BookingExpiredDate.Date < DateTime.Now.Date)
-            {
-                return BadRequest(new _ApiResponse<object>(
-                    statusCode: StatusCodes.Status400BadRequest,
-                    message: "Booking expired date must be today or later."
-                ));
-            }
-
-            if (request.BookingExpiredDate.Date < request.BookingDate.Date)
-            {
-                return BadRequest(new _ApiResponse<object>(
-                    statusCode: StatusCodes.Status400BadRequest,
-                    message: "Booking expired date must be later than booking date."
-                ));
-            }
-
-            var tourism =
-                await context.TourismAttractions.FirstOrDefaultAsync(x => x.Id == request.TourismAttractionId);
-
-            if (tourism == null)
                 return NotFound(new _ApiResponse<object>(
                     statusCode: StatusCodes.Status404NotFound,
                     message: "Tourism attraction not found."
                 ));
+            }
 
-            var totalPrice = request.NumberOfTickets * tourism.Price;
+            // Validate if the user has already rated this attraction
+            var exstingBookmark = await context.TourismAttractionBookmarks
+                .FirstOrDefaultAsync(r => r.TourismAttractionId == request.TourismAttractionId && r.UserId == userId);
 
-            if (totalPrice != 0 && request.InputPrice < totalPrice)
+            if (exstingBookmark != null)
             {
-                return BadRequest(new _ApiResponse<object>(
-                    statusCode: StatusCodes.Status400BadRequest,
-                    message:
-                    $"Input price is less than the total price. Please check again. Total price: {totalPrice} Input price: {request.InputPrice}"
+                context.TourismAttractionBookmarks.Remove(exstingBookmark);
+                await context.SaveChangesAsync();
+                return Ok(new _ApiResponse<object>(
+                    message: "Bookmark removed successfully."
                 ));
             }
 
-            var booking = new TicketBooking
+            // Add the new rating
+            var e = new TourismAttractionBookmark()
             {
                 Id = Guid.NewGuid(),
-                Code = GenerateBookingCode(6),
                 TourismAttractionId = request.TourismAttractionId,
                 UserId = userId,
-                NumberOfTickets = request.NumberOfTickets,
-                InputPrice = request.InputPrice,
-                Price = totalPrice == 0 ? 0 : tourism.Price,
-                TotalPrice = totalPrice == 0 ? 0 : totalPrice,
-                BookingDate = request.BookingDate,
-                BookingExpiredDate = request.BookingExpiredDate
             };
-            await context.TicketBookings.AddAsync(booking);
+
+            context.TourismAttractionBookmarks.Add(e);
             await context.SaveChangesAsync();
 
             return Ok(new _ApiResponse<object>(
-                message: "Ticket booked successfully."
+                message: "Rating added successfully."
             ));
         }
 
-        private static string GenerateBookingCode(int length = 6)
-        {
-            const string validCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            var random = new Random();
-            var code = new char[length];
-
-            for (int i = 0; i < length; i++)
-            {
-                code[i] = validCharacters[random.Next(validCharacters.Length)];
-            }
-
-            return new string(code);
-        }
+        //     [HttpPost("book-ticket")]
+        //     [Authorize]
+        //     public async Task<IActionResult> BookTicket([FromBody] TicketBookingRequest request)
+        //     {
+        //         var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+        //         if (userIdClaim == null || !Guid.TryParse(userIdClaim, out var userId))
+        //         {
+        //             return Unauthorized(new _ApiResponse<object>(
+        //                 statusCode: StatusCodes.Status401Unauthorized,
+        //                 message: "Invalid user authentication."
+        //             ));
+        //         }
+        //
+        //         bool checkBookToday = await context.TicketBookings.AnyAsync(
+        //             x => x.UserId == userId && x.BookingDate.Date == DateTime.Now.Date &&
+        //                  x.TourismAttractionId == request.TourismAttractionId
+        //         );
+        //
+        //         if (checkBookToday)
+        //         {
+        //             return BadRequest(new _ApiResponse<object>(
+        //                 statusCode: StatusCodes.Status400BadRequest,
+        //                 message: "You have already booked a ticket today."
+        //             ));
+        //         }
+        //
+        //         if (request.BookingDate.Date < DateTime.Now.Date)
+        //         {
+        //             return BadRequest(new _ApiResponse<object>(
+        //                 statusCode: StatusCodes.Status400BadRequest,
+        //                 message: "Booking date must be today or later."
+        //             ));
+        //         }
+        //
+        //         if (request.BookingExpiredDate.Date < DateTime.Now.Date)
+        //         {
+        //             return BadRequest(new _ApiResponse<object>(
+        //                 statusCode: StatusCodes.Status400BadRequest,
+        //                 message: "Booking expired date must be today or later."
+        //             ));
+        //         }
+        //
+        //         if (request.BookingExpiredDate.Date < request.BookingDate.Date)
+        //         {
+        //             return BadRequest(new _ApiResponse<object>(
+        //                 statusCode: StatusCodes.Status400BadRequest,
+        //                 message: "Booking expired date must be later than booking date."
+        //             ));
+        //         }
+        //
+        //         var tourism =
+        //             await context.TourismAttractions.FirstOrDefaultAsync(x => x.Id == request.TourismAttractionId);
+        //
+        //         if (tourism == null)
+        //             return NotFound(new _ApiResponse<object>(
+        //                 statusCode: StatusCodes.Status404NotFound,
+        //                 message: "Tourism attraction not found."
+        //             ));
+        //
+        //         var totalPrice = request.NumberOfTickets * tourism.Price;
+        //
+        //         if (totalPrice != 0 && request.InputPrice < totalPrice)
+        //         {
+        //             return BadRequest(new _ApiResponse<object>(
+        //                 statusCode: StatusCodes.Status400BadRequest,
+        //                 message:
+        //                 $"Input price is less than the total price. Please check again. Total price: {totalPrice} Input price: {request.InputPrice}"
+        //             ));
+        //         }
+        //
+        //         var booking = new TicketBooking
+        //         {
+        //             Id = Guid.NewGuid(),
+        //             Code = GenerateBookingCode(6),
+        //             TourismAttractionId = request.TourismAttractionId,
+        //             UserId = userId,
+        //             NumberOfTickets = request.NumberOfTickets,
+        //             InputPrice = request.InputPrice,
+        //             Price = totalPrice == 0 ? 0 : tourism.Price,
+        //             TotalPrice = totalPrice == 0 ? 0 : totalPrice,
+        //             BookingDate = request.BookingDate,
+        //             BookingExpiredDate = request.BookingExpiredDate
+        //         };
+        //         await context.TicketBookings.AddAsync(booking);
+        //         await context.SaveChangesAsync();
+        //
+        //         return Ok(new _ApiResponse<object>(
+        //             message: "Ticket booked successfully."
+        //         ));
+        //     }
+        //
+        //     private static string GenerateBookingCode(int length = 6)
+        //     {
+        //         const string validCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        //         var random = new Random();
+        //         var code = new char[length];
+        //
+        //         for (int i = 0; i < length; i++)
+        //         {
+        //             code[i] = validCharacters[random.Next(validCharacters.Length)];
+        //         }
+        //
+        //         return new string(code);
+        //     }
+        // }
     }
 }

@@ -120,37 +120,24 @@ namespace Namatara.API.Controllers
                     Id = x.TourismAttractionId,
                     Name = x.TourismAttraction == null ? "" : x.TourismAttraction.Name,
                     ImageUrl = x.TourismAttraction == null ? "" : x.TourismAttraction.ImageUrl,
-                    Review = x.Review,
                     Rating = x.Rating
                 }).AsNoTracking().ToListAsync()
             ));
         }
 
         [Authorize]
-        [HttpGet("me/tickets")]
-        public async Task<IActionResult> GetCurrentUserTickets()
+        [HttpGet("me/bookmarks")]
+        public async Task<IActionResult> GetCurrentUserAttractionBookmarks()
         {
             var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "";
 
             return Ok(new _ApiResponse<object>(
-                data: await context.TicketBookings
-                    .Where(x => x.UserId == Guid.Parse(userId))
-                    .Include(x => x.TourismAttraction)
-                    .Select(x => new
+                data: await context.TourismAttractionBookmarks.Where(x => x.UserId == Guid.Parse(userId)).Select(x =>
+                    new
                     {
-                        x.Id,
-                        x.TourismAttractionId,
-                        x.Code, 
-                        x.NumberOfTickets,
-                        x.InputPrice,
-                        x.TotalPrice,
-                        x.BookingDate,
-                        x.BookingExpiredDate,
-                        TourismAttraction = new
-                        {
-                            x.TourismAttraction.Name,
-                            x.TourismAttraction.ImageUrl
-                        }
+                        Id = x.TourismAttractionId,
+                        Name = x.TourismAttraction == null ? "" : x.TourismAttraction.Name,
+                        ImageUrl = x.TourismAttraction == null ? "" : x.TourismAttraction.ImageUrl,
                     }).AsNoTracking().ToListAsync()
             ));
         }

@@ -55,61 +55,6 @@ namespace Namatara.API.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("Namatara.API.Models.TicketBooking", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("BookingDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("BookingExpiredDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Code")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid>("CreatedBy")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<decimal>("InputPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("NumberOfTickets")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("TotalPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<Guid>("TourismAttractionId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid?>("UpdatedBy")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("TourismAttractionId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("TicketBookings");
-                });
-
             modelBuilder.Entity("Namatara.API.Models.TourismAttraction", b =>
                 {
                     b.Property<Guid>("Id")
@@ -162,6 +107,39 @@ namespace Namatara.API.Migrations
                     b.ToTable("TourismAttractions");
                 });
 
+            modelBuilder.Entity("Namatara.API.Models.TourismAttractionBookmark", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TourismAttractionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TourismAttractionId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TourismAttractionBookmarks");
+                });
+
             modelBuilder.Entity("Namatara.API.Models.TourismAttractionRating", b =>
                 {
                     b.Property<Guid>("Id")
@@ -170,9 +148,6 @@ namespace Namatara.API.Migrations
 
                     b.Property<decimal>("Rating")
                         .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("Review")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("TourismAttractionId")
                         .HasColumnType("uniqueidentifier");
@@ -227,7 +202,18 @@ namespace Namatara.API.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Namatara.API.Models.TicketBooking", b =>
+            modelBuilder.Entity("Namatara.API.Models.TourismAttraction", b =>
+                {
+                    b.HasOne("Namatara.API.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Namatara.API.Models.TourismAttractionBookmark", b =>
                 {
                     b.HasOne("Namatara.API.Models.TourismAttraction", "TourismAttraction")
                         .WithMany()
@@ -244,17 +230,6 @@ namespace Namatara.API.Migrations
                     b.Navigation("TourismAttraction");
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Namatara.API.Models.TourismAttraction", b =>
-                {
-                    b.HasOne("Namatara.API.Models.Category", "Category")
-                        .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("Namatara.API.Models.TourismAttractionRating", b =>
