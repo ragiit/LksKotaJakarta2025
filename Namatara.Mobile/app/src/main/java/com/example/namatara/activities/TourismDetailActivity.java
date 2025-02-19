@@ -1,10 +1,15 @@
 package com.example.namatara.activities;
 
 import java.text.NumberFormat;
+import java.util.List;
 import java.util.Locale;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -13,6 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.namatara.R;
 import com.example.namatara._Helper;
@@ -92,6 +98,7 @@ public class TourismDetailActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         // Cek apakah tombol back yang ditekan
@@ -102,6 +109,7 @@ public class TourismDetailActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
     private boolean isBookmarked = false;
 
     private void toggleBookmark() {
@@ -110,7 +118,7 @@ public class TourismDetailActivity extends AppCompatActivity {
 
     private void checkBookmarkStatus() {
         try {
-            String a= "tourismattractions/" + jsonObject.getString("id") + "/is-bookmark";
+            String a = "tourismattractions/" + jsonObject.getString("id") + "/is-bookmark";
             ResponseModel responseModel = _Helper.httpHelper(a);
             if (responseModel.code == 200) {
                 try {
@@ -142,12 +150,9 @@ public class TourismDetailActivity extends AppCompatActivity {
                 jsonObject = new JSONObject(responseModel.data);
                 boolean b = jsonObject.getBoolean("data");
                 updateBookmarkUI(b);
-                if (b)
-                {
+                if (b) {
                     Toast.makeText(this, "Added to bookmarks", Toast.LENGTH_SHORT).show();
-                }
-                else
-                {
+                } else {
                     Toast.makeText(this, "Bookmark removed", Toast.LENGTH_SHORT).show();
                 }
             } catch (JSONException e) {
@@ -180,5 +185,4 @@ public class TourismDetailActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-
 }

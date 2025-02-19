@@ -497,6 +497,226 @@ static void SeedData(ApplicationDbContext dbContext)
     }
 
     dbContext.SaveChanges();
+
+    // if (attractionsToAdd.Count == 0)
+    attractionsToAdd = dbContext.TourismAttractions.AsNoTracking().ToList();
+
+    var bookmarks = new List<TourismAttractionBookmark>
+    {
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[0].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "argi").Select(u => u.Id).FirstOrDefault(),
+            CreatedBy = adminUserId,
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[1].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "argi").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[2].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "argi").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[3].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "foxtrot").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[4].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "golf").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[5].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "golf").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[6].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "budi").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[7].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "budi").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[8].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "budi").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[9].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "charlie").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[10].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "charlie").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[11].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "delta").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[12].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "delta").Select(u => u.Id).FirstOrDefault()
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[13].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "echo").Select(u => u.Id).FirstOrDefault()
+        },
+    };
+
+    var existingBookmarks = dbContext.TourismAttractionBookmarks.Select(t => new
+    {
+        TourismAttractionId = t.TourismAttractionId,
+        UserId = t.UserId
+    }).ToList();
+
+    foreach (var x in bookmarks.Where(attraction =>
+                 existingBookmarks.All(b => b.TourismAttractionId != attraction.Id && b.UserId != attraction.UserId)))
+    {
+        dbContext.TourismAttractionBookmarks.Add(x);
+    }
+
+    var ratings = new List<TourismAttractionRating>
+    {
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[0].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "argi").Select(u => u.Id).FirstOrDefault(),
+            Rating = 4.5m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[1].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "argi").Select(u => u.Id).FirstOrDefault(),
+            Rating = 3.8m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[2].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "argi").Select(u => u.Id).FirstOrDefault(),
+            Rating = 5.0m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[3].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "foxtrot").Select(u => u.Id).FirstOrDefault(),
+            Rating = 4.2m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[4].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "golf").Select(u => u.Id).FirstOrDefault(),
+            Rating = 3.5m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[5].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "golf").Select(u => u.Id).FirstOrDefault(),
+            Rating = 4.7m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[6].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "budi").Select(u => u.Id).FirstOrDefault(),
+            Rating = 4.0m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[7].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "budi").Select(u => u.Id).FirstOrDefault(),
+            Rating = 3.9m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[8].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "budi").Select(u => u.Id).FirstOrDefault(),
+            Rating = 4.8m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[9].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "charlie").Select(u => u.Id).FirstOrDefault(),
+            Rating = 4.3m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[10].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "charlie").Select(u => u.Id).FirstOrDefault(),
+            Rating = 3.6m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[11].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "delta").Select(u => u.Id).FirstOrDefault(),
+            Rating = 4.9m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[12].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "delta").Select(u => u.Id).FirstOrDefault(),
+            Rating = 3.7m
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            TourismAttractionId = attractionsToAdd[13].Id,
+            UserId = dbContext.Users.Where(u => u.Username == "echo").Select(u => u.Id).FirstOrDefault(),
+            Rating = 4.1m
+        },
+    };
+
+// Cek apakah rating sudah ada agar tidak duplikasi
+    var existingRatings = dbContext.TourismAttractionRatings
+        .Select(t => new { t.TourismAttractionId, t.UserId })
+        .ToList();
+
+    foreach (var rating in ratings.Where(r =>
+                 existingRatings.All(e => e.TourismAttractionId != r.TourismAttractionId || e.UserId != r.UserId)))
+    {
+        dbContext.TourismAttractionRatings.Add(rating);
+    }
+
+
+    dbContext.SaveChanges();
 }
 
 app.Run();

@@ -20,7 +20,8 @@ import java.util.concurrent.ExecutionException;
 public class _Helper {
 
     public static String TOKEN = "";
-    private static String baseURL = "http://192.168.1.5:5000/api/";
+    private static String baseURL = "http://100.122.125.68:5000/api/";
+//    private static String baseURL = "http://192.168.1.5:5000/api/";
     //    private static String baseURL = "http://10.0.2.2:5000/api/";
     private static String baseImageURL = baseURL.replace("api/", "");
 

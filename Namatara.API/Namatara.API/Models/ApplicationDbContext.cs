@@ -3,12 +3,13 @@ using Namatara.API.Services;
 
 namespace Namatara.API.Models
 {
-    public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, IUserService userService) : DbContext(options)
+    public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, IUserService userService)
+        : DbContext(options)
     {
         #region DbSet
 
         public DbSet<Category> Categories { get; set; }
-        public DbSet<User> Users { get; set; } 
+        public DbSet<User> Users { get; set; }
         public DbSet<TourismAttraction> TourismAttractions { get; set; }
         public DbSet<TourismAttractionBookmark> TourismAttractionBookmarks { get; set; }
         public DbSet<TourismAttractionRating> TourismAttractionRatings { get; set; }
@@ -67,24 +68,24 @@ namespace Namatara.API.Models
         public override int SaveChanges()
         {
             var entries = ChangeTracker.Entries()
-                .Where(e => e.Entity is _AuditEntity && (e.State == EntityState.Added || e.State == EntityState.Modified));
+                .Where(e => e is { Entity: _AuditEntity, State: EntityState.Added or EntityState.Modified });
 
             var currentUserId = userService.GetCurrentUserId();
 
             foreach (var entry in entries)
             {
-                if (entry.State == EntityState.Added)
+                switch (entry.State)
                 {
-                    // Mengisi properti audit saat entitas ditambahkan
-                    ((_AuditEntity)entry.Entity).CreatedBy = currentUserId;
-                    ((_AuditEntity)entry.Entity).CreatedAt = DateTime.UtcNow;
-                }
-
-                if (entry.State == EntityState.Modified)
-                {
-                    // Mengisi properti audit saat entitas diperbarui
-                    ((_AuditEntity)entry.Entity).UpdatedBy = currentUserId;
-                    ((_AuditEntity)entry.Entity).UpdatedAt = DateTime.UtcNow;
+                    case EntityState.Added:
+                        // Mengisi properti audit saat entitas ditambahkan
+                        ((_AuditEntity)entry.Entity).CreatedBy = currentUserId;
+                        ((_AuditEntity)entry.Entity).CreatedAt = DateTime.UtcNow;
+                        break;
+                    case EntityState.Modified:
+                        // Mengisi properti audit saat entitas diperbarui
+                        ((_AuditEntity)entry.Entity).UpdatedBy = currentUserId;
+                        ((_AuditEntity)entry.Entity).UpdatedAt = DateTime.UtcNow;
+                        break;
                 }
             }
 
@@ -94,24 +95,24 @@ namespace Namatara.API.Models
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var entries = ChangeTracker.Entries()
-                .Where(e => e.Entity is _AuditEntity && (e.State == EntityState.Added || e.State == EntityState.Modified));
+                .Where(e => e is { Entity: _AuditEntity, State: EntityState.Added or EntityState.Modified });
 
             var currentUserId = userService.GetCurrentUserId(); // Mendapatkan ID pengguna saat ini
 
             foreach (var entry in entries)
             {
-                if (entry.State == EntityState.Added)
+                switch (entry.State)
                 {
-                    // Mengisi properti audit saat entitas ditambahkan
-                    ((_AuditEntity)entry.Entity).CreatedBy = currentUserId;
-                    ((_AuditEntity)entry.Entity).CreatedAt = DateTime.UtcNow;
-                }
-
-                if (entry.State == EntityState.Modified)
-                {
-                    // Mengisi properti audit saat entitas diperbarui
-                    ((_AuditEntity)entry.Entity).UpdatedBy = currentUserId;
-                    ((_AuditEntity)entry.Entity).UpdatedAt = DateTime.UtcNow;
+                    case EntityState.Added:
+                        // Mengisi properti audit saat entitas ditambahkan
+                        ((_AuditEntity)entry.Entity).CreatedBy = currentUserId;
+                        ((_AuditEntity)entry.Entity).CreatedAt = DateTime.UtcNow;
+                        break;
+                    case EntityState.Modified:
+                        // Mengisi properti audit saat entitas diperbarui
+                        ((_AuditEntity)entry.Entity).UpdatedBy = currentUserId;
+                        ((_AuditEntity)entry.Entity).UpdatedAt = DateTime.UtcNow;
+                        break;
                 }
             }
 
