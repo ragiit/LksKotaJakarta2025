@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "toX7DAHmFdw=",
+  "dgSpecHash": "RVDMe09bsFU=",
   "success": true,
   "projectFilePath": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\Namatara.API.csproj",
   "expectedPackageFiles": [
@@ -103,6 +103,7 @@
     "C:\\Users\\argip\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.5.0\\microsoft.identitymodel.protocols.7.5.0.nupkg.sha512",
     "C:\\Users\\argip\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.5.0\\microsoft.identitymodel.protocols.openidconnect.7.5.0.nupkg.sha512",
     "C:\\Users\\argip\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.0\\microsoft.identitymodel.tokens.7.5.0.nupkg.sha512",
+    "C:\\Users\\argip\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.13\\microsoft.net.illink.tasks.8.0.13.nupkg.sha512",
     "C:\\Users\\argip\\.nuget\\packages\\microsoft.net.stringtools\\17.8.3\\microsoft.net.stringtools.17.8.3.nupkg.sha512",
     "C:\\Users\\argip\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\argip\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",

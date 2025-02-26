@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j+azNXdnOybUZwEqe3AlK7EFC/qc4TEVE+iDbyLEzso=",
+  "Hash": "6nqGRExjp19wK2/sKlYhxKZehLRGukqles6MgtEuZvk=",
   "Source": "Namatara.API",
   "BasePath": "_content/Namatara.API",
   "Mode": "Default",
@@ -143,27 +143,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\category_umkm.jpeg"
     },
     {
-      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
-      "SourceId": "Namatara.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
-      "BasePath": "_content/Namatara.API",
-      "RelativePath": "Images/category_wisata#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0d47eiamuy",
-      "Integrity": "1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\category_wisata.jpeg"
-    },
-    {
       "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata_edukasi.jpg",
       "SourceId": "Namatara.API",
       "SourceType": "Discovered",
@@ -183,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\category_wisata_edukasi.jpg"
+    },
+    {
+      "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
+      "SourceId": "Namatara.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\",
+      "BasePath": "_content/Namatara.API",
+      "RelativePath": "Images/category_wisata#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0d47eiamuy",
+      "Integrity": "1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\category_wisata.jpeg"
     },
     {
       "Identity": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\festival-bali-arts.jpeg",
@@ -1036,88 +1036,6 @@
       ]
     },
     {
-      "Route": "Images/category_wisata.0d47eiamuy.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "206011"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:28:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0d47eiamuy"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/category_wisata.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="
-        }
-      ]
-    },
-    {
-      "Route": "Images/category_wisata.jpeg",
-      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "206011"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 04:28:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="
-        }
-      ]
-    },
-    {
       "Route": "Images/category_wisata_edukasi.jpg",
       "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata_edukasi.jpg",
       "Selectors": [],
@@ -1196,6 +1114,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-MoU2wdPamZ6EU0gP2PkYUs+BX23jV1x+xr/GbFaq95A="
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_wisata.0d47eiamuy.jpeg",
+      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:28:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0d47eiamuy"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/category_wisata.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="
+        }
+      ]
+    },
+    {
+      "Route": "Images/category_wisata.jpeg",
+      "AssetFile": "D:\\LKS\\LksKotaJakarta2025\\Namatara.API\\Namatara.API\\wwwroot\\Images\\category_wisata.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 04:28:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="
         }
       ]
     },
