@@ -1,0 +1,6 @@
+D:\LKS\LksKotaJakarta2025\Soal\Test Project\Mobile Android\Web API\appsettings.Development.json
+D:\LKS\LksKotaJakarta2025\Soal\Test Project\Mobile Android\Web API\appsettings.json
+D:\LKS\LksKotaJakarta2025\Soal\Test Project\Mobile Android\Web API\http-client.env.json
+D:\LKS\LksKotaJakarta2025\Soal\Test Project\Mobile Android\Web API\Namatara.API.pdb
+D:\LKS\LksKotaJakarta2025\Soal\Test Project\Mobile Android\Web API\Microsoft.Data.SqlClient.SNI.dll
+D:\LKS\LksKotaJakarta2025\Soal\Test Project\Mobile Android\Web API\Namatara.API.exe
