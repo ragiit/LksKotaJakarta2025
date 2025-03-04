@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddHttpContextAccessor();
-// Menambahkan DbContext ke container
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
@@ -43,16 +43,15 @@ builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Namatara API", Version = "v1" });
 
-    // Tambahkan konfigurasi Bearer Token
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
         Type = SecuritySchemeType.ApiKey,
         Scheme = "Bearer",
         In = ParameterLocation.Header,
-        Description = "Masukkan token JWT dengan format: Bearer {token}"
+        Description = "Masukkan JWT dengan format: Bearer {token}"
     });
 
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -87,17 +86,19 @@ app.MapControllers();
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    dbContext.Database.Migrate(); // Apply any pending migrations
+    dbContext.Database.Migrate();
 
-    SeedData(dbContext); // Call the seed method
+    SeedData(dbContext);
 }
+
+app.Run();
+return;
 
 static void SeedData(ApplicationDbContext dbContext)
 {
-    // Check if the User data already exists to avoid duplicate seeding
     var adminUserId =
-        Guid.Parse("49B35962-536D-4DE4-93C7-E602172BD9D8"); // Admin's GUID (replace it with a fixed GUID if needed)
-    if (!dbContext.Users.Any(u => u.Username == "admin")) // Check if the admin user already exists
+        Guid.Parse("49B35962-536D-4DE4-93C7-E602172BD9D8");
+    if (!dbContext.Users.Any(u => u.Username == "admin"))
     {
         // Seed User
         dbContext.Users.AddRange(
@@ -106,7 +107,7 @@ static void SeedData(ApplicationDbContext dbContext)
                 Id = adminUserId,
                 Username = "admin",
                 Password = new PasswordHelper()
-                    .HashPassword("adminpassword"), // You should hash the password in a real-world app
+                    .HashPassword("adminpassword"),
                 Role = UserRole.Admin, // Set the role to Admin
                 FullName = "Admin",
                 DateOfBirth = DateTime.UtcNow,
@@ -702,9 +703,8 @@ static void SeedData(ApplicationDbContext dbContext)
             UserId = dbContext.Users.Where(u => u.Username == "echo").Select(u => u.Id).FirstOrDefault(),
             Rating = 4.1m
         },
-    };
-
-// Cek apakah rating sudah ada agar tidak duplikasi
+    }; 
+    
     var existingRatings = dbContext.TourismAttractionRatings
         .Select(t => new { t.TourismAttractionId, t.UserId })
         .ToList();
@@ -714,9 +714,6 @@ static void SeedData(ApplicationDbContext dbContext)
     {
         dbContext.TourismAttractionRatings.Add(rating);
     }
-
-
+    
     dbContext.SaveChanges();
 }
-
-app.Run();

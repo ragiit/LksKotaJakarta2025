@@ -4,6 +4,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Namatara.API.Controllers
 {
+    /// <summary>
+    /// Controller for users.
+    /// </summary>
+    /// <param name="context"></param>
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController(ApplicationDbContext context) : ControllerBase
@@ -17,7 +21,7 @@ namespace Namatara.API.Controllers
                 data: await context.Users.Select(x => new
                     {
                         x.Id,
-                        x.FullName,
+                        x.FullName, 
                         x.Username,
                         x.DateOfBirth,
                         x.ImageUrl

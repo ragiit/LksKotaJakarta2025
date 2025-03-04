@@ -13,12 +13,20 @@ using Namatara.API.Models;
 
 namespace Namatara.API.Controllers
 {
+    /// <summary>
+    /// Controller for tourism attractions.
+    /// </summary>
+    /// <param name="context"></param>
     [Route("api/[controller]")]
     [ApiController]
     public class TourismAttractionsController(ApplicationDbContext context) : ControllerBase
     {
-        // GET: api/TourismAttractions/5
-        [HttpGet("{id}")]
+        /// <summary>
+        /// Get all tourism attractions.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet("{id:guid}")]
         public async Task<ActionResult<_ApiResponse<TourismAttraction>>> GetTourismAttraction(Guid id)
         {
             var attraction = await context.TourismAttractions
@@ -33,7 +41,6 @@ namespace Namatara.API.Controllers
                 ));
             }
 
-            // Hitung rata-rata rating
             var averageRating = attraction.Ratings.Count != 0
                 ? attraction.Ratings.Average(r => r.Rating)
                 : 0;
@@ -55,6 +62,11 @@ namespace Namatara.API.Controllers
             ));
         }
 
+        /// <summary>
+        /// Get all tourism attractions.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("ratings")]
         [Authorize]
         public async Task<ActionResult<_ApiResponse<object>>> AddRating([FromBody] TourismAttractionUserRating request)
@@ -78,7 +90,6 @@ namespace Namatara.API.Controllers
                 ));
             }
 
-            // Validate if the user has already rated this attraction
             var existingRating = await context.TourismAttractionRatings
                 .FirstOrDefaultAsync(r => r.TourismAttractionId == request.TourismAttractionId && r.UserId == userId);
 
@@ -90,13 +101,8 @@ namespace Namatara.API.Controllers
                 return Ok(new _ApiResponse<object>(
                     message: "Rating updated successfully."
                 ));
-                //return BadRequest(new _ApiResponse<object>(
-                //    statusCode: StatusCodes.Status400BadRequest,
-                //    message: "You have already rated this attraction."
-                //));
             }
 
-            // Add the new rating
             var newRating = new TourismAttractionRating
             {
                 Id = Guid.NewGuid(),
@@ -113,6 +119,11 @@ namespace Namatara.API.Controllers
             ));
         }
 
+        /// <summary>
+        /// Get all tourism attractions.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("bookmark")]
         [Authorize]
         public async Task<ActionResult<_ApiResponse<object>>> AddBookmark(
@@ -127,7 +138,6 @@ namespace Namatara.API.Controllers
                 ));
             }
 
-            // Check if the attraction exists
             var attraction = await context.TourismAttractions.FindAsync(request.TourismAttractionId);
             if (attraction == null)
             {
@@ -137,7 +147,6 @@ namespace Namatara.API.Controllers
                 ));
             }
 
-            // Validate if the user has already rated this attraction
             var exstingBookmark = await context.TourismAttractionBookmarks
                 .FirstOrDefaultAsync(r => r.TourismAttractionId == request.TourismAttractionId && r.UserId == userId);
 
@@ -147,11 +156,11 @@ namespace Namatara.API.Controllers
                 await context.SaveChangesAsync();
                 return Ok(new _ApiResponse<object>(
                     message: "Bookmark removed successfully.",
-                 data: await context.TourismAttractionBookmarks.AnyAsync(x => x.TourismAttractionId == request.TourismAttractionId)
+                    data: await context.TourismAttractionBookmarks.AnyAsync(x =>
+                        x.TourismAttractionId == request.TourismAttractionId)
                 ));
             }
 
-            // Add the new rating
             var e = new TourismAttractionBookmark()
             {
                 Id = Guid.NewGuid(),
@@ -164,11 +173,17 @@ namespace Namatara.API.Controllers
 
             return Ok(new _ApiResponse<object>(
                 message: "Bookmark updated successfully.",
-                data: await context.TourismAttractionBookmarks.AnyAsync(x => x.TourismAttractionId == request.TourismAttractionId)
+                data: await context.TourismAttractionBookmarks.AnyAsync(x =>
+                    x.TourismAttractionId == request.TourismAttractionId)
             ));
         }
 
-        [HttpGet("{id}/is-bookmark")]
+        /// <summary>
+        /// Get all tourism attractions.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet("{id:guid}/is-bookmark")]
         [Authorize]
         public async Task<ActionResult<_ApiResponse<object>>> AddBookmark(Guid id)
         {
@@ -181,7 +196,6 @@ namespace Namatara.API.Controllers
                 ));
             }
 
-            // Check if the attraction exists
             var attraction = await context.TourismAttractions.FindAsync(id);
             if (attraction == null)
             {
@@ -193,7 +207,7 @@ namespace Namatara.API.Controllers
 
             return Ok(new _ApiResponse<object>(
                 data: await context.TourismAttractionBookmarks.AnyAsync(x => x.TourismAttractionId == id)
-           ));
+            ));
         }
 
         //     [HttpPost("book-ticket")]

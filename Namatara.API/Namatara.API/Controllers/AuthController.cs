@@ -11,10 +11,20 @@ using System.Text;
 
 namespace Namatara.API.Controllers
 {
+    /// <summary>
+    /// Controller for authentication.
+    /// </summary>
+    /// <param name="context"></param>
+    /// <param name="configuration"></param>
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController(ApplicationDbContext context, IConfiguration configuration) : ControllerBase
     {
+        /// <summary>
+        /// Sign in a user.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("sign-in")]
         public async Task<IActionResult> SignIn([FromBody] LoginRequest request)
         {
@@ -43,6 +53,11 @@ namespace Namatara.API.Controllers
             ));
         }
 
+        /// <summary>
+        /// Sign up a new user.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("sign-up")]
         public async Task<IActionResult> SignUp([FromBody] UserSignUpRequest request)
         {
@@ -68,77 +83,6 @@ namespace Namatara.API.Controllers
             return Ok(new _ApiResponse<object>
             (
                 message: "Sign up successfully."
-            ));
-        }
-
-        [Authorize]
-        [HttpGet("me")]
-        public async Task<IActionResult> GetCurrentUser()
-        {
-            var username = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
-
-            if (string.IsNullOrEmpty(username))
-            {
-                return Unauthorized(new _ApiResponse<object>(
-                    statusCode: StatusCodes.Status401Unauthorized,
-                    message: "Invalid token or user not found."
-                ));
-            }
-
-            var user = await context.Users.FirstOrDefaultAsync(x => x.Username == username);
-
-            if (user is null)
-            {
-                return NotFound(new _ApiResponse<object>(
-                    statusCode: StatusCodes.Status404NotFound,
-                    message: "User data not found."
-                ));
-            }
-
-            return Ok(new _ApiResponse<object>(
-                data: new
-                {
-                    user.Id,
-                    user.Username,
-                    user.FullName,
-                    user.DateOfBirth,
-                    user.Role,
-                    user.ImageUrl
-                }
-            ));
-        }
-
-        [Authorize]
-        [HttpGet("me/attraction-ratings")]
-        public async Task<IActionResult> GetCurrentUserAttractionRatings()
-        {
-            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "";
-
-            return Ok(new _ApiResponse<object>(
-                data: await context.TourismAttractionRatings.Where(x => x.UserId == Guid.Parse(userId)).Select(x => new
-                {
-                    Id = x.TourismAttractionId,
-                    Name = x.TourismAttraction == null ? "" : x.TourismAttraction.Name,
-                    ImageUrl = x.TourismAttraction == null ? "" : x.TourismAttraction.ImageUrl,
-                    Rating = x.Rating
-                }).AsNoTracking().ToListAsync()
-            ));
-        }
-
-        [Authorize]
-        [HttpGet("me/bookmarks")]
-        public async Task<IActionResult> GetCurrentUserAttractionBookmarks()
-        {
-            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "";
-
-            return Ok(new _ApiResponse<object>(
-                data: await context.TourismAttractionBookmarks.Where(x => x.UserId == Guid.Parse(userId)).Select(x =>
-                    new
-                    {
-                        Id = x.TourismAttractionId,
-                        Name = x.TourismAttraction == null ? "" : x.TourismAttraction.Name,
-                        ImageUrl = x.TourismAttraction == null ? "" : x.TourismAttraction.ImageUrl,
-                    }).AsNoTracking().ToListAsync()
             ));
         }
 

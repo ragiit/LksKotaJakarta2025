@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Namatara.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2dd3e0c16d08698503406bcee18f769ffac5302")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e14fdead8852e3cb71c61970cb7192be71cc9915")]
 [assembly: System.Reflection.AssemblyProductAttribute("Namatara.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Namatara.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

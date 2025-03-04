@@ -37,14 +37,14 @@ public class ProfileFragment extends Fragment {
                              Bundle savedInstanceState) {
         binding = FragmentProfileBinding.inflate(getLayoutInflater());
 
-        ResponseModel responseModel = _Helper.httpHelper("auth/me");
+        ResponseModel responseModel = _Helper.httpHelper("me");
 
         if (responseModel.code == 200) {
             try {
                 JSONObject data = new JSONObject(responseModel.data).getJSONObject("data");
 
                 binding.tvFullName.setText(data.getString("fullName"));
-                binding.tvUsername.setText("@" + data.getString("username"));
+                binding.tvUsername.setText(String.format("@%s", data.getString("username")));
 
                 _Helper.httpGetImage(this.getContext(), data.getString("imageUrl"), binding.ivProfileImage);
 
@@ -55,10 +55,9 @@ public class ProfileFragment extends Fragment {
             }
 
         } else if (responseModel.code == 401) {
-            // Jika kode 401 (Unauthorized), pindahkan ke halaman login
             Intent intent = new Intent(getActivity(), LoginActivity.class);
             startActivity(intent);
-            getActivity().finish();  // Tutup halaman profile agar tidak bisa kembali ke sini
+            getActivity().finish();
 
         } else {
             Toast.makeText(getContext(), responseModel.data, Toast.LENGTH_SHORT).show();
@@ -77,12 +76,11 @@ public class ProfileFragment extends Fragment {
             }
         });
 
-
         return binding.getRoot();
     }
 
     private void getRatings() {
-        ResponseModel responseModel = _Helper.httpHelper("auth/me/attraction-ratings");
+        ResponseModel responseModel = _Helper.httpHelper("me/attraction-ratings");
         if (responseModel.code == 200) {
             try {
                 RatingAdapter adapter = new RatingAdapter(new JSONObject(responseModel.data).getJSONArray("data"));
@@ -96,7 +94,7 @@ public class ProfileFragment extends Fragment {
     }
 
     private void getBookmarks() {
-        ResponseModel responseModel = _Helper.httpHelper("auth/me/bookmarks");
+        ResponseModel responseModel = _Helper.httpHelper("me/bookmarks");
         if (responseModel.code == 200) {
             try {
                 RatingAdapter adapter = new RatingAdapter(new JSONObject(responseModel.data).getJSONArray("data"));

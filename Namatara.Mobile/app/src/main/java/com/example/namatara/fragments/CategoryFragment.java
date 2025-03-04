@@ -31,17 +31,16 @@ public class CategoryFragment extends Fragment {
     }
 
     private void setupSearchView() {
-        // Pastikan binding menggunakan SearchView yang berasal dari androidx.appcompat.widget.SearchView
         binding.searchView.setOnQueryTextListener(new androidx.appcompat.widget.SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                getCategories(query); // Panggil fungsi pencarian dengan query
+                getCategories(query);
                 return true;
             }
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                getCategories(newText); // Panggil fungsi pencarian dengan query terbaru
+                getCategories(newText);
                 return true;
             }
         });

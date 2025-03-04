@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,11 +10,20 @@ using Namatara.API.Models;
 
 namespace Namatara.API.Controllers
 {
+    /// <summary>
+    /// Controller for categories.
+    /// </summary>
+    /// <param name="context"></param>
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CategoriesController(ApplicationDbContext context) : ControllerBase
     {
-        // GET: api/Categories
+        /// <summary>
+        /// Get all categories.
+        /// </summary>
+        /// <param name="search"></param>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<_ApiResponse<Category>>> GetCategories(string search = "")
         {
@@ -38,8 +48,11 @@ namespace Namatara.API.Controllers
             ));
         }
 
-
-        // GET: api/Categories/d99e5c64-f169-4b3c-8be5-502ca48d66d5
+        /// <summary>
+        /// Get a category by id.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<Category>> GetCategory(Guid id)
         {
@@ -66,6 +79,12 @@ namespace Namatara.API.Controllers
             ));
         }
 
+        /// <summary>
+        /// Get a category with its attractions.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="search"></param>
+        /// <returns></returns>
         [HttpGet("{id}/attractions")]
         public async Task<ActionResult<TourismAttraction>> GetCategoryWithAttractions(Guid id, string search = "")
         {
@@ -109,13 +128,6 @@ namespace Namatara.API.Controllers
                 .ToListAsync();
 
             return Ok(new _ApiResponse<object>(data: attractions));
-        }
-
-
-        [HttpGet("sssss")]
-        public async Task<ActionResult<_ApiResponse<object>>> GetCategorieszz()
-        {
-            return Ok("Nyoba");
         }
     }
 }
