@@ -53,7 +53,7 @@ namespace Namatara.API.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        [HttpGet("{id}")]
+        [HttpGet("{id:guid}")]
         public async Task<ActionResult<Category>> GetCategory(Guid id)
         {
             var category = await context.Categories.FindAsync(id);
@@ -85,7 +85,7 @@ namespace Namatara.API.Controllers
         /// <param name="id"></param>
         /// <param name="search"></param>
         /// <returns></returns>
-        [HttpGet("{id}/attractions")]
+        [HttpGet("{id:guid}/attractions")]
         public async Task<ActionResult<TourismAttraction>> GetCategoryWithAttractions(Guid id, string search = "")
         {
             var category = await context.Categories.FindAsync(id);
