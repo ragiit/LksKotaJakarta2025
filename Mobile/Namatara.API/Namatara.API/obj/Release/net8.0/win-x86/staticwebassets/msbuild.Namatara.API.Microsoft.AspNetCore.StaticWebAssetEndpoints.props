@@ -1,0 +1,304 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/air-terjun-gitgit.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\air-terjun-gitgit.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cuthYFgKU2x\u002BDe/Kjj0LQxGxriPizAHFwUBgkDfV2SQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66944"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cuthYFgKU2x\u002BDe/Kjj0LQxGxriPizAHFwUBgkDfV2SQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:43:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/air-terjun-gitgit.uhvgsr8ul0.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\air-terjun-gitgit.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uhvgsr8ul0"},{"Name":"integrity","Value":"sha256-cuthYFgKU2x\u002BDe/Kjj0LQxGxriPizAHFwUBgkDfV2SQ="},{"Name":"label","Value":"_content/Namatara.API/Images/air-terjun-gitgit.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66944"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cuthYFgKU2x\u002BDe/Kjj0LQxGxriPizAHFwUBgkDfV2SQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:43:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/bali-international-film-festival.25pv7054ue.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bali-international-film-festival.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"25pv7054ue"},{"Name":"integrity","Value":"sha256-BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY="},{"Name":"label","Value":"_content/Namatara.API/Images/bali-international-film-festival.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9390"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:52:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/bali-international-film-festival.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bali-international-film-festival.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9390"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022BkjUrulEJ2xu8j4zQwPkowvWxby/jy0DnApV8cgsRhY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:52:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/bali-mountain-retreat.7r1ntgt1op.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bali-mountain-retreat.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7r1ntgt1op"},{"Name":"integrity","Value":"sha256-o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA="},{"Name":"label","Value":"_content/Namatara.API/Images/bali-mountain-retreat.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"474204"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:49:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/bali-mountain-retreat.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bali-mountain-retreat.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"474204"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022o/UwrTr53pMBYsjVsX12QLvMLApNuJtixnpIeioSLOA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:49:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_acara_festival.45gq2aaime.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_acara_festival.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"45gq2aaime"},{"Name":"integrity","Value":"sha256-OJ7l\u002Bp0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq\u002B1lw="},{"Name":"label","Value":"_content/Namatara.API/Images/category_acara_festival.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"543145"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OJ7l\u002Bp0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq\u002B1lw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:34:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_acara_festival.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_acara_festival.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OJ7l\u002Bp0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq\u002B1lw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"543145"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OJ7l\u002Bp0U4x5HzX7jqHBUUHLHEgRrcSFaGdge6Nq\u002B1lw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:34:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_homestay.2fgglx69w2.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_homestay.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2fgglx69w2"},{"Name":"integrity","Value":"sha256-4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU="},{"Name":"label","Value":"_content/Namatara.API/Images/category_homestay.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"286439"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:28:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_homestay.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_homestay.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"286439"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224k9oktv8O/3pBFAAkoYQkknX/FXfp/1A4LGel3nM4wU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:28:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_umkm.emvuqdh4fj.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_umkm.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"emvuqdh4fj"},{"Name":"integrity","Value":"sha256-akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag="},{"Name":"label","Value":"_content/Namatara.API/Images/category_umkm.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"54661"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:28:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_umkm.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_umkm.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"54661"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022akZhfaQ7vqrdI5pSd6JnX7jFcEkdHAEr2fPrFMVB9ag=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:28:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_wisata.0d47eiamuy.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_wisata.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0d47eiamuy"},{"Name":"integrity","Value":"sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="},{"Name":"label","Value":"_content/Namatara.API/Images/category_wisata.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"206011"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:28:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_wisata.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_wisata.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"206011"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221IdBxROvEYF0SYJzBvQoKbjK5Noj1jOVdjvLUDM2q20=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:28:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_wisata_edukasi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_wisata_edukasi.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MoU2wdPamZ6EU0gP2PkYUs\u002BBX23jV1x\u002Bxr/GbFaq95A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"77822"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022MoU2wdPamZ6EU0gP2PkYUs\u002BBX23jV1x\u002Bxr/GbFaq95A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:30:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/category_wisata_edukasi.yre4vuasvi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\category_wisata_edukasi.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yre4vuasvi"},{"Name":"integrity","Value":"sha256-MoU2wdPamZ6EU0gP2PkYUs\u002BBX23jV1x\u002Bxr/GbFaq95A="},{"Name":"label","Value":"_content/Namatara.API/Images/category_wisata_edukasi.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"77822"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022MoU2wdPamZ6EU0gP2PkYUs\u002BBX23jV1x\u002Bxr/GbFaq95A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:30:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/festival-bali-arts.42ecdaq4qu.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\festival-bali-arts.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"42ecdaq4qu"},{"Name":"integrity","Value":"sha256-1PgsheOW8i6rf3C65SoS7DjljS\u002BYlu6XeNhmoMNzkQg="},{"Name":"label","Value":"_content/Namatara.API/Images/festival-bali-arts.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18858"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221PgsheOW8i6rf3C65SoS7DjljS\u002BYlu6XeNhmoMNzkQg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:52:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/festival-bali-arts.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\festival-bali-arts.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1PgsheOW8i6rf3C65SoS7DjljS\u002BYlu6XeNhmoMNzkQg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18858"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221PgsheOW8i6rf3C65SoS7DjljS\u002BYlu6XeNhmoMNzkQg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:52:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/festival-kesenian-ubud.jmvtpb8sxb.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\festival-kesenian-ubud.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jmvtpb8sxb"},{"Name":"integrity","Value":"sha256-W4qvvCG/K4oV\u002B56etstbOdw2zuuett2UgSII9oDw9/w="},{"Name":"label","Value":"_content/Namatara.API/Images/festival-kesenian-ubud.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14863"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022W4qvvCG/K4oV\u002B56etstbOdw2zuuett2UgSII9oDw9/w=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:51:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/festival-kesenian-ubud.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\festival-kesenian-ubud.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-W4qvvCG/K4oV\u002B56etstbOdw2zuuett2UgSII9oDw9/w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14863"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022W4qvvCG/K4oV\u002B56etstbOdw2zuuett2UgSII9oDw9/w=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:51:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/homestay-tepi-laut.jobhvs08ur.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\homestay-tepi-laut.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jobhvs08ur"},{"Name":"integrity","Value":"sha256-nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc="},{"Name":"label","Value":"_content/Namatara.API/Images/homestay-tepi-laut.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8924"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:47:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/homestay-tepi-laut.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\homestay-tepi-laut.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8924"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nTvT5ghDuVKZxJZhajp0JVxw4tqE3g5cID7LoGrqBbc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:47:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image1.cf47i534gz.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cf47i534gz"},{"Name":"integrity","Value":"sha256-2DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0="},{"Name":"label","Value":"_content/Namatara.API/Images/image1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"43660"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"43660"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222DcW3tDcomv6rxdGiUhvMAhXVR2xoRqVlmr7GYSs/j0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HHusmPbquV8zy1qLZZT8cGwNV\u002BWRsIJwXBHWWjctbtE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"57176"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HHusmPbquV8zy1qLZZT8cGwNV\u002BWRsIJwXBHWWjctbtE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image2.kupxmtxgzh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kupxmtxgzh"},{"Name":"integrity","Value":"sha256-HHusmPbquV8zy1qLZZT8cGwNV\u002BWRsIJwXBHWWjctbtE="},{"Name":"label","Value":"_content/Namatara.API/Images/image2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"57176"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HHusmPbquV8zy1qLZZT8cGwNV\u002BWRsIJwXBHWWjctbtE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"69152"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image3.o5ayn5ntyo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o5ayn5ntyo"},{"Name":"integrity","Value":"sha256-FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k="},{"Name":"label","Value":"_content/Namatara.API/Images/image3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"69152"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FD3L2GSu1SLw8psks9l5mMnj1d1Xw3SUlDLTkgbF5/k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image4.hq3xdrbmyx.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hq3xdrbmyx"},{"Name":"integrity","Value":"sha256-18Xm7Zco\u002BPbovbzFjmcN\u002BvQSGSekN5wCV2W0SwXn0k4="},{"Name":"label","Value":"_content/Namatara.API/Images/image4.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"63447"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002218Xm7Zco\u002BPbovbzFjmcN\u002BvQSGSekN5wCV2W0SwXn0k4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-18Xm7Zco\u002BPbovbzFjmcN\u002BvQSGSekN5wCV2W0SwXn0k4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"63447"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002218Xm7Zco\u002BPbovbzFjmcN\u002BvQSGSekN5wCV2W0SwXn0k4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image5.2sb304zjpg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2sb304zjpg"},{"Name":"integrity","Value":"sha256-niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4="},{"Name":"label","Value":"_content/Namatara.API/Images/image5.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"56189"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/image5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\image5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"56189"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022niEsZSrFobiotMkyQl9LduldjT2fhHxwWC6qXks7Vb4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:53:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/kebun-edukasi.8adwu5amxl.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\kebun-edukasi.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8adwu5amxl"},{"Name":"integrity","Value":"sha256-wMJd76CJ6L/xbV0JMagybwUN0m0/9K\u002BJxN3UAFqrR4s="},{"Name":"label","Value":"_content/Namatara.API/Images/kebun-edukasi.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3328755"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wMJd76CJ6L/xbV0JMagybwUN0m0/9K\u002BJxN3UAFqrR4s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:50:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/kebun-edukasi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\kebun-edukasi.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wMJd76CJ6L/xbV0JMagybwUN0m0/9K\u002BJxN3UAFqrR4s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3328755"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wMJd76CJ6L/xbV0JMagybwUN0m0/9K\u002BJxN3UAFqrR4s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:50:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/museum-sejarah.7epgrukt36.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\museum-sejarah.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7epgrukt36"},{"Name":"integrity","Value":"sha256-cWhLrXY\u002BEsPnyq9b3wZ3fI7ljIHtiDFzG\u002BPnaC5fyRA="},{"Name":"label","Value":"_content/Namatara.API/Images/museum-sejarah.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"284419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cWhLrXY\u002BEsPnyq9b3wZ3fI7ljIHtiDFzG\u002BPnaC5fyRA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:50:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/museum-sejarah.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\museum-sejarah.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cWhLrXY\u002BEsPnyq9b3wZ3fI7ljIHtiDFzG\u002BPnaC5fyRA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"284419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cWhLrXY\u002BEsPnyq9b3wZ3fI7ljIHtiDFzG\u002BPnaC5fyRA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:50:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/pantai-kuta.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pantai-kuta.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"83704"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:41:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/pantai-kuta.lzv5h87zxu.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pantai-kuta.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lzv5h87zxu"},{"Name":"integrity","Value":"sha256-MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8="},{"Name":"label","Value":"_content/Namatara.API/Images/pantai-kuta.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"83704"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022MTKyZJEXYqNzBCtVg0jcSWvL/c6i2iIpuqziCRLz9r8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:41:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/pasar-badung.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pasar-badung.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hl3z3o2\u002BGxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13559"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hl3z3o2\u002BGxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:46:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/pasar-badung.qsvih0066s.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pasar-badung.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qsvih0066s"},{"Name":"integrity","Value":"sha256-hl3z3o2\u002BGxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40="},{"Name":"label","Value":"_content/Namatara.API/Images/pasar-badung.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13559"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hl3z3o2\u002BGxPE5yBv1LUYpeo7JlWvfUYdz1q44DYYQ40=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:46:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/pasar-seni-ubud.4ompcre8kj.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pasar-seni-ubud.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4ompcre8kj"},{"Name":"integrity","Value":"sha256-/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI="},{"Name":"label","Value":"_content/Namatara.API/Images/pasar-seni-ubud.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"51643"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:45:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/pasar-seni-ubud.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pasar-seni-ubud.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"51643"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/AgGls4TM1uuIK8jBnnKT4U3St2Qxu8gQ8aE5vI7AOI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:45:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/pasar-sukawati.2bmcket6e0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pasar-sukawati.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2bmcket6e0"},{"Name":"integrity","Value":"sha256-Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U="},{"Name":"label","Value":"_content/Namatara.API/Images/pasar-sukawati.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49519"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:47:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/pasar-sukawati.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\pasar-sukawati.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49519"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Eii5UZfqmBfhEyVRLRG7VNSsQjW8SiOinHs9X9Z5e9U=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:47:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/planetarium.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\planetarium.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vE019vlyL1lvh3vH2VakbNOgkbPlbK5\u002BUWFwILvl8Ao="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"52740"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vE019vlyL1lvh3vH2VakbNOgkbPlbK5\u002BUWFwILvl8Ao=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:51:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/planetarium.sgqnsbgvvy.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\planetarium.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sgqnsbgvvy"},{"Name":"integrity","Value":"sha256-vE019vlyL1lvh3vH2VakbNOgkbPlbK5\u002BUWFwILvl8Ao="},{"Name":"label","Value":"_content/Namatara.API/Images/planetarium.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"52740"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vE019vlyL1lvh3vH2VakbNOgkbPlbK5\u002BUWFwILvl8Ao=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:51:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/taman-nasional-bali-barat.c6l89vo1rh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\taman-nasional-bali-barat.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c6l89vo1rh"},{"Name":"integrity","Value":"sha256-zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc="},{"Name":"label","Value":"_content/Namatara.API/Images/taman-nasional-bali-barat.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"159876"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:44:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/taman-nasional-bali-barat.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\taman-nasional-bali-barat.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"159876"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zJ1iVdB1jCrzY0UJfsV8Y1sbpjQhLwzeKKNki0Y9qBc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:44:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/villa-bali-seaview.jlntn2f47a.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\villa-bali-seaview.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jlntn2f47a"},{"Name":"integrity","Value":"sha256-STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb\u002BxY4jgR6c="},{"Name":"label","Value":"_content/Namatara.API/Images/villa-bali-seaview.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16194"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb\u002BxY4jgR6c=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:48:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Namatara.API/Images/villa-bali-seaview.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\villa-bali-seaview.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb\u002BxY4jgR6c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"16194"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022STTOz0jF7pb7Hab5QgMsGLcfzUbfGTnTXb\u002BxY4jgR6c=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 04:48:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

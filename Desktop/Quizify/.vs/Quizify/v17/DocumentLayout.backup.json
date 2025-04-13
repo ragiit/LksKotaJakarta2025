@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Soal by Me\\Quizify\\Quizify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|k:\\soal by me\\quizify\\quizify\\quizify\\optioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\optioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\questionsessionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\questionsessionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\questionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\questionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\questionsessionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\questionsessionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\questioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\questioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\optioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\optioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\editaddquestionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\editaddquestionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|K:\\Soal by Me\\Quizify\\Quizify\\quizify\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22D69D7A-9E2D-4E86-AD73-9373D769A1C0}|Quizify\\Quizify.csproj|solutionrelative:quizify\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuestionSessionForm.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\QuestionSessionForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\QuestionSessionForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\QuestionSessionForm.cs [Design]",
+              "RelativeToolTip": "Quizify\\QuestionSessionForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:36:00.156Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuestionsForm.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\QuestionsForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\QuestionsForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\QuestionsForm.cs [Design]",
+              "RelativeToolTip": "Quizify\\QuestionsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:35:59.058Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardForm.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\DashboardForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\DashboardForm.cs [Design]",
+              "RelativeToolTip": "Quizify\\DashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:35:55.666Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResultsForm.cs",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\ResultsForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\ResultsForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\ResultsForm.cs",
+              "RelativeToolTip": "Quizify\\ResultsForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwCcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:35:45.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResultsForm.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\ResultsForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\ResultsForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\ResultsForm.cs [Design]",
+              "RelativeToolTip": "Quizify\\ResultsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:35:42.127Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuestionSessionForm.cs",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\QuestionSessionForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\QuestionSessionForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\QuestionSessionForm.cs",
+              "RelativeToolTip": "Quizify\\QuestionSessionForm.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAcwJ4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:47:28.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OptionControl.cs",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\OptionControl.cs",
+              "RelativeDocumentMoniker": "Quizify\\OptionControl.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\OptionControl.cs",
+              "RelativeToolTip": "Quizify\\OptionControl.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T04:59:50.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\DashboardForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\DashboardForm.cs",
+              "RelativeToolTip": "Quizify\\DashboardForm.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAUwE0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:55:33.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\LoginForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\LoginForm.cs",
+              "RelativeToolTip": "Quizify\\LoginForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:17:51.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegistrationForm.cs",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\RegistrationForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\RegistrationForm.cs",
+              "RelativeToolTip": "Quizify\\RegistrationForm.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:10:18.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\MainForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\MainForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\MainForm.cs [Design]",
+              "RelativeToolTip": "Quizify\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:08:57.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuestionControl.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\QuestionControl.cs",
+              "RelativeDocumentMoniker": "Quizify\\QuestionControl.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\QuestionControl.cs [Design]",
+              "RelativeToolTip": "Quizify\\QuestionControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:21:24.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditAddQuestionForm.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\EditAddQuestionForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\EditAddQuestionForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\EditAddQuestionForm.cs [Design]",
+              "RelativeToolTip": "Quizify\\EditAddQuestionForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:21:17.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OptionControl.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\OptionControl.cs",
+              "RelativeDocumentMoniker": "Quizify\\OptionControl.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\OptionControl.cs [Design]",
+              "RelativeToolTip": "Quizify\\OptionControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T04:59:00.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\LoginForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Quizify\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:08:58.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataClasses1.dbml",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\DataClasses1.dbml",
+              "RelativeDocumentMoniker": "Quizify\\DataClasses1.dbml",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\DataClasses1.dbml",
+              "RelativeToolTip": "Quizify\\DataClasses1.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2025-04-05T03:04:40.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegistrationForm.cs [Design]",
+              "DocumentMoniker": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "Quizify\\RegistrationForm.cs",
+              "ToolTip": "K:\\Soal by Me\\Quizify\\Quizify\\Quizify\\RegistrationForm.cs [Design]",
+              "RelativeToolTip": "Quizify\\RegistrationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T02:59:30.533Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

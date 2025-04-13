@@ -1,0 +1,38 @@
+K:\Quizify\Quizify\Quizify\bin\Debug\Quizify.exe.config
+K:\Quizify\Quizify\Quizify\bin\Debug\Quizify.exe
+K:\Quizify\Quizify\Quizify\bin\Debug\Quizify.pdb
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.csproj.AssemblyReference.cache
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.Properties.Resources.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.csproj.GenerateResource.cache
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.csproj.CoreCompileInputs.cache
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.exe
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.pdb
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.LoginForm.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.RegistrationForm.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.DashboardForm.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.MainForm.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.OptionControl.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.QuestionControl.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.EditAddQuestionForm.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.ResultsForm.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.QuestionsForm.resources
+K:\Quizify\Quizify\Quizify\obj\Debug\Quizify.QuestionSessionForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\bin\Debug\Quizify.exe.config
+K:\Soal by Me\Quizify\Quizify\Quizify\bin\Debug\Quizify.exe
+K:\Soal by Me\Quizify\Quizify\Quizify\bin\Debug\Quizify.pdb
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.csproj.AssemblyReference.cache
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.DashboardForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.EditAddQuestionForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.QuestionsForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.LoginForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.MainForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.OptionControl.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.QuestionControl.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.QuestionSessionForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.RegistrationForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.Properties.Resources.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.ResultsForm.resources
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.csproj.GenerateResource.cache
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.csproj.CoreCompileInputs.cache
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.exe
+K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.pdb

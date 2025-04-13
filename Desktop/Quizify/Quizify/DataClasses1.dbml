@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Quizify_DB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\ITSSB;Initial Catalog=Quizify_DB;Integrated Security=True;Encrypt=False" SettingsObjectName="Quizify.Properties.Settings" SettingsPropertyName="Quizify_DBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Participant" Member="Participants">
+    <Type Name="Participant">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SubjectID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="TimeTaken" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Participant_ParticipantAnswer" Member="ParticipantAnswers" ThisKey="ID" OtherKey="ParticipantID" Type="ParticipantAnswer" />
+      <Association Name="User_Participant" Member="User" ThisKey="UserID" OtherKey="ID" Type="User" IsForeignKey="true" />
+      <Association Name="Subject_Participant" Member="Subject" ThisKey="SubjectID" OtherKey="ID" Type="Subject" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FullName" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Role" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="BirthDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="User_Participant" Member="Participants" ThisKey="ID" OtherKey="UserID" Type="Participant" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ParticipantAnswer" Member="ParticipantAnswers">
+    <Type Name="ParticipantAnswer">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ParticipantID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuestionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Answer" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Association Name="Participant_ParticipantAnswer" Member="Participant" ThisKey="ParticipantID" OtherKey="ID" Type="Participant" IsForeignKey="true" />
+      <Association Name="Question_ParticipantAnswer" Member="Question" ThisKey="QuestionID" OtherKey="ID" Type="Question" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Question" Member="Questions">
+    <Type Name="Question">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SubjectID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Question" Member="Question1" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="OptionA" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="OptionB" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="OptionC" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="OptionD" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="CorrectAnswer" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Association Name="Question_ParticipantAnswer" Member="ParticipantAnswers" ThisKey="ID" OtherKey="QuestionID" Type="ParticipantAnswer" />
+      <Association Name="Subject_Question" Member="Subject" ThisKey="SubjectID" OtherKey="ID" Type="Subject" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Subject" Member="Subjects">
+    <Type Name="Subject">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Time" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Subject_Participant" Member="Participants" ThisKey="ID" OtherKey="SubjectID" Type="Participant" />
+      <Association Name="Subject_Question" Member="Questions" ThisKey="ID" OtherKey="SubjectID" Type="Question" />
+    </Type>
+  </Table>
+</Database>

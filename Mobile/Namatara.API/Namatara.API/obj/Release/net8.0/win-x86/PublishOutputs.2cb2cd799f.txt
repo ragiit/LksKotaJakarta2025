@@ -1,0 +1,6 @@
+D:\LKS\LksKotaJakarta2025\Mobile\Namatara.API\Namatara.API\obj\Release\net8.0\win-x86\PubTmp\Out\appsettings.Development.json
+D:\LKS\LksKotaJakarta2025\Mobile\Namatara.API\Namatara.API\obj\Release\net8.0\win-x86\PubTmp\Out\appsettings.json
+D:\LKS\LksKotaJakarta2025\Mobile\Namatara.API\Namatara.API\obj\Release\net8.0\win-x86\PubTmp\Out\http-client.env.json
+D:\LKS\LksKotaJakarta2025\Mobile\Namatara.API\Namatara.API\obj\Release\net8.0\win-x86\PubTmp\Out\Namatara.API.pdb
+D:\LKS\LksKotaJakarta2025\Mobile\Namatara.API\Namatara.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Data.SqlClient.SNI.dll
+D:\LKS\LksKotaJakarta2025\Mobile\Namatara.API\Namatara.API\obj\Release\net8.0\win-x86\PubTmp\Out\Namatara.API.exe
