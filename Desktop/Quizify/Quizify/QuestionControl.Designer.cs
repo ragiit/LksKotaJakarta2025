@@ -48,6 +48,7 @@
             this.groupBox1.Size = new System.Drawing.Size(257, 153);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btn
             // 
@@ -68,7 +69,7 @@
             this.lblNumberOfQuestion.Location = new System.Drawing.Point(20, 83);
             this.lblNumberOfQuestion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNumberOfQuestion.Name = "lblNumberOfQuestion";
-            this.lblNumberOfQuestion.Size = new System.Drawing.Size(144, 13);
+            this.lblNumberOfQuestion.Size = new System.Drawing.Size(179, 17);
             this.lblNumberOfQuestion.TabIndex = 26;
             this.lblNumberOfQuestion.Text = "Number of Question: 45";
             // 
@@ -78,7 +79,7 @@
             this.lblTime.Location = new System.Drawing.Point(20, 60);
             this.lblTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(83, 13);
+            this.lblTime.Size = new System.Drawing.Size(100, 17);
             this.lblTime.TabIndex = 25;
             this.lblTime.Text = "Time: 60 min";
             // 
@@ -89,13 +90,13 @@
             this.lblName.Location = new System.Drawing.Point(19, 16);
             this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(93, 23);
+            this.lblName.Size = new System.Drawing.Size(115, 29);
             this.lblName.TabIndex = 24;
             this.lblName.Text = "Science";
             // 
             // QuestionControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

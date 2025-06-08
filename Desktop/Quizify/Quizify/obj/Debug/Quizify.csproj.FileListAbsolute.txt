@@ -36,3 +36,22 @@ K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.csproj.GenerateResource.
 K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.csproj.CoreCompileInputs.cache
 K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.exe
 K:\Soal by Me\Quizify\Quizify\Quizify\obj\Debug\Quizify.pdb
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\bin\Debug\Quizify.exe.config
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\bin\Debug\Quizify.exe
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\bin\Debug\Quizify.pdb
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.csproj.AssemblyReference.cache
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.DashboardForm.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.EditAddQuestionForm.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.QuestionsForm.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.LoginForm.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.MainForm.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.OptionControl.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.QuestionControl.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.QuestionSessionForm.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.RegistrationForm.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.Properties.Resources.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.ResultsForm.resources
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.csproj.GenerateResource.cache
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.csproj.CoreCompileInputs.cache
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.exe
+D:\LKS\LksKotaJakarta2025\Desktop\Quizify\Quizify\obj\Debug\Quizify.pdb

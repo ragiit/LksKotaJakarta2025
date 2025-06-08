@@ -14,6 +14,7 @@ namespace Quizify
     {
         private int selectedId;
         private Form f;
+
         public QuestionControl(int selectedId, Form f)
         {
             InitializeComponent();
@@ -57,6 +58,10 @@ namespace Quizify
                 new QuestionSessionForm(selectedId).Show();
                 f.Close();
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
         }
     }
 }
